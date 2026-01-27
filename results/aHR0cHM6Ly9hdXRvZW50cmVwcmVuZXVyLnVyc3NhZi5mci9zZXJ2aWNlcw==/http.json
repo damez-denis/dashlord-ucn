@@ -1,0 +1,240 @@
+{
+  "scan": {
+    "algorithmVersion": 4,
+    "grade": "C",
+    "error": null,
+    "score": 50,
+    "statusCode": 200,
+    "testsFailed": 4,
+    "testsPassed": 6,
+    "testsQuantity": 10,
+    "responseHeaders": {
+      "date": "Tue, 27 Jan 2026 18:23:51 GMT",
+      "expires": "Wed, 09 May 1979 05:30:00 GMT",
+      "cache-control": "no-cache,no-store,must-revalidate",
+      "pragma": "no-cache, no-cache",
+      "content-type": "text/html;charset=UTF-8",
+      "vary": "Accept-Encoding,User-Agent",
+      "content-security-policy": "default-src 'self' blob: *.urssaf.fr voxusagers.numerique.gouv.fr *.dailymotion.com *.google-analytics.com *.hcaptcha.com *.net-entreprises.fr *.youtube.com *.google.com *.gstatic.com *.facebook.net 'unsafe-inline' data: *.tagcommander.com *.commander1.com *.trustcommander.net *.googleapis.com *.staging.k8s.recouv cdn-virtual-agent-enriched.smartly.ai apis-virtual-agent-enriched.smartly.ai webchat-virtual-agent-enriched.smartly.ai smartly-image-stage.s3.us-west-2.amazonaws.com media-virtual-agent-enriched.smartly.ai cdnjs.cloudflare.com production-rogeraccess-webapp.rogervoice.com *.amazonaws.com *.abtasty.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io wss:; script-src 'self' blob: *.youtube.com tag.aticdn.net *.urssaf.fr *.google-analytics.com *.google.com *.gstatic.com *.net-entreprises.fr 'unsafe-eval' 'unsafe-inline' *.tagcommander.com *.trustcommander.net *.commander1.com cdn-virtual-agent-enriched.smartly.ai cdnjs.cloudflare.com cdn.polyfill.io webrtc.github.io widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.staging.k8s.recouv *.googleapis.com *.abtasty.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io",
+      "x-xss-protection": "1; mode=block",
+      "x-content-type-options": "nosniff",
+      "connection": "close",
+      "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+      "set-cookie": [
+        "TS6bd60791029=08285ff142ab280069556e5a02b6c42df5f95c06e0489c5529bdf50bdd7031a78a17d21bb0d07524efda4a9a2864e707; Max-Age=30; Path=/",
+        "TS4d2f80a5027=08285ff142ab20004098043ff65b6fb462b5a364b86ada5ef9fd760f852d28c73cb58e523445ed200864b9368a1130007d683209434ecf8bba89db071edcc1028f1655a6ae2b3fbbe298ef4390ef23f04f9f1f3881d694eadaf4e1d033cf129e; Path=/"
+      ],
+      "transfer-encoding": "chunked"
+    }
+  },
+  "tests": {
+    "content-security-policy": {
+      "expectation": "csp-implemented-with-no-unsafe",
+      "pass": false,
+      "result": "csp-implemented-with-unsafe-inline",
+      "scoreModifier": -20,
+      "data": {
+        "default-src": [
+          "'self'",
+          "'unsafe-inline'",
+          "*.abtasty.com",
+          "*.amazonaws.com",
+          "*.cobrowse.io",
+          "*.commander1.com",
+          "*.dailymotion.com",
+          "*.doyoudreamup.com",
+          "*.dydu.ai",
+          "*.facebook.net",
+          "*.google-analytics.com",
+          "*.google.com",
+          "*.googleapis.com",
+          "*.gstatic.com",
+          "*.hcaptcha.com",
+          "*.net-entreprises.fr",
+          "*.staging.k8s.recouv",
+          "*.tagcommander.com",
+          "*.trustcommander.net",
+          "*.urssaf.fr",
+          "*.youtube.com",
+          "apis-virtual-agent-enriched.smartly.ai",
+          "blob:",
+          "cdn-virtual-agent-enriched.smartly.ai",
+          "cdnjs.cloudflare.com",
+          "data:",
+          "media-virtual-agent-enriched.smartly.ai",
+          "production-rogeraccess-webapp.rogervoice.com",
+          "smartly-image-stage.s3.us-west-2.amazonaws.com",
+          "voxusagers.numerique.gouv.fr",
+          "webchat-virtual-agent-enriched.smartly.ai",
+          "wss:"
+        ],
+        "script-src": [
+          "'self'",
+          "'unsafe-eval'",
+          "'unsafe-inline'",
+          "*.abtasty.com",
+          "*.cobrowse.io",
+          "*.commander1.com",
+          "*.doyoudreamup.com",
+          "*.dydu.ai",
+          "*.google-analytics.com",
+          "*.google.com",
+          "*.googleapis.com",
+          "*.gstatic.com",
+          "*.mouseflow.com",
+          "*.net-entreprises.fr",
+          "*.staging.k8s.recouv",
+          "*.tagcommander.com",
+          "*.trustcommander.net",
+          "*.urssaf.fr",
+          "*.youtube.com",
+          "blob:",
+          "cdn-virtual-agent-enriched.smartly.ai",
+          "cdn.polyfill.io",
+          "cdnjs.cloudflare.com",
+          "production-rogeraccess-webapp.rogervoice.com",
+          "production-rogeraccess.rogervoice.com",
+          "tag.aticdn.net",
+          "webrtc.github.io",
+          "widget.rogervoice.com"
+        ]
+      },
+      "http": true,
+      "meta": false,
+      "policy": {
+        "antiClickjacking": false,
+        "defaultNone": false,
+        "insecureBaseUri": true,
+        "insecureFormAction": true,
+        "insecureSchemeActive": false,
+        "insecureSchemePassive": false,
+        "strictDynamic": false,
+        "unsafeEval": true,
+        "unsafeInline": true,
+        "unsafeInlineStyle": true,
+        "unsafeObjects": false
+      },
+      "numPolicies": 1
+    },
+    "cookies": {
+      "expectation": "cookies-secure-with-httponly-sessions",
+      "pass": false,
+      "result": "cookies-without-secure-flag-but-protected-by-hsts",
+      "scoreModifier": -5,
+      "data": {
+        "TS011bc192": {
+          "domain": "autoentrepreneur.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "TS6bd60791029": {
+          "domain": "www.autoentrepreneur.urssaf.fr",
+          "max-age": 30,
+          "path": "/",
+          "port": null
+        },
+        "TS4d2f80a5027": {
+          "domain": "www.autoentrepreneur.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "TS01e420e8": {
+          "domain": "www.autoentrepreneur.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "JSESSIONID": {
+          "domain": "www.autoentrepreneur.urssaf.fr",
+          "httponly": true,
+          "path": "/portail",
+          "port": null,
+          "secure": true
+        },
+        "TS013afc68": {
+          "domain": "www.autoentrepreneur.urssaf.fr",
+          "path": "/portail",
+          "port": null
+        }
+      },
+      "sameSite": false
+    },
+    "cross-origin-resource-sharing": {
+      "expectation": "cross-origin-resource-sharing-not-implemented",
+      "pass": true,
+      "result": "cross-origin-resource-sharing-not-implemented",
+      "scoreModifier": 0,
+      "data": null
+    },
+    "redirection": {
+      "expectation": "redirection-to-https",
+      "pass": true,
+      "result": "redirection-to-https",
+      "scoreModifier": 0,
+      "destination": "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html",
+      "redirects": true,
+      "route": [
+        "http://autoentrepreneur.urssaf.fr/services",
+        "https://autoentrepreneur.urssaf.fr/services",
+        "https://www.autoentrepreneur.urssaf.fr/services",
+        "https://www.autoentrepreneur.urssaf.fr/portail/",
+        "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html"
+      ],
+      "statusCode": 200
+    },
+    "referrer-policy": {
+      "expectation": "referrer-policy-private",
+      "pass": true,
+      "result": "referrer-policy-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    },
+    "strict-transport-security": {
+      "expectation": "hsts-implemented-max-age-at-least-six-months",
+      "pass": true,
+      "result": "hsts-implemented-max-age-at-least-six-months",
+      "scoreModifier": 0,
+      "data": "max-age=16070400; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "maxAge": 16070400,
+      "preload": true,
+      "preloaded": false
+    },
+    "subresource-integrity": {
+      "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+      "pass": false,
+      "result": "sri-not-implemented-but-external-scripts-loaded-securely",
+      "scoreModifier": -5,
+      "data": {
+        "https://cdn.tagcommander.com/4736/tc_Acoss_20.js": {
+          "crossorigin": null,
+          "integrity": null
+        }
+      }
+    },
+    "x-content-type-options": {
+      "expectation": "x-content-type-options-nosniff",
+      "pass": true,
+      "result": "x-content-type-options-nosniff",
+      "scoreModifier": 0,
+      "data": "nosniff"
+    },
+    "x-frame-options": {
+      "expectation": "x-frame-options-sameorigin-or-deny",
+      "pass": false,
+      "result": "x-frame-options-not-implemented",
+      "scoreModifier": -20,
+      "data": null
+    },
+    "cross-origin-resource-policy": {
+      "expectation": "corp-implemented-with-same-site",
+      "pass": true,
+      "result": "corp-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    }
+  }
+}
