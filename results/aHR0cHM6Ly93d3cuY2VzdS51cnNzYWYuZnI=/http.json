@@ -1,0 +1,197 @@
+{
+  "scan": {
+    "algorithmVersion": 4,
+    "grade": "C",
+    "error": null,
+    "score": 50,
+    "statusCode": 200,
+    "testsFailed": 3,
+    "testsPassed": 7,
+    "testsQuantity": 10,
+    "responseHeaders": {
+      "date": "Tue, 27 Jan 2026 18:46:52 GMT",
+      "expires": "Wed, 09 May 1979 05:30:00 GMT",
+      "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
+      "pragma": "no-cache",
+      "content-type": "text/html;charset=UTF-8",
+      "vary": "Accept-Encoding,User-Agent",
+      "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
+      "x-xss-protection": "1; mode=block",
+      "x-content-type-options": "nosniff",
+      "connection": "close",
+      "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+      "set-cookie": [
+        "TS3ab25f03029=08285ff142ab28003f2fa902c82a118fd2af1c46c8891819738bb459c30555550bdda1ab8c2d40cce6c4a35aacef200b; Max-Age=30; Path=/",
+        "TS1c4bd837027=08285ff142ab20006044c3a2b3d41ac3aeeaae31024172139389b7caadb628d5b9f9f448b5ca8a65080453e1f2113000fda6a89d2a4954a24e7965439ba4d5e0cbfc9b64ee12b384479b91799fae84d0eaf6898d74a0e2746bb13b8b7cd33ca9; Path=/"
+      ],
+      "transfer-encoding": "chunked"
+    }
+  },
+  "tests": {
+    "content-security-policy": {
+      "expectation": "csp-implemented-with-no-unsafe",
+      "pass": false,
+      "result": "csp-implemented-with-unsafe-inline",
+      "scoreModifier": -20,
+      "data": {
+        "default-src": [
+          "'self'",
+          "'unsafe-eval'",
+          "'unsafe-inline'",
+          "*.abtasty.com",
+          "*.amazonaws.com",
+          "*.api.gouv.fr",
+          "*.cobrowse.io",
+          "*.commander1.com",
+          "*.data.gouv.fr",
+          "*.doyoudreamup.com",
+          "*.dydu.ai",
+          "*.google.com",
+          "*.googleapis.com",
+          "*.googletagmanager.com",
+          "*.gstatic.com",
+          "*.hcaptcha.com",
+          "*.mopinion.com",
+          "*.mouseflow.com",
+          "*.smartly.ai",
+          "*.tagcommander.com",
+          "*.trustcommander.net",
+          "*.urssaf.fr",
+          "*.youtube.com",
+          "blob:",
+          "data:",
+          "production-rogeraccess-webapp.rogervoice.com",
+          "production-rogeraccess.rogervoice.com",
+          "tag.aticdn.net",
+          "voxusagers.numerique.gouv.fr",
+          "widget.rogervoice.com",
+          "wss:"
+        ]
+      },
+      "http": true,
+      "meta": false,
+      "policy": {
+        "antiClickjacking": false,
+        "defaultNone": false,
+        "insecureBaseUri": true,
+        "insecureFormAction": true,
+        "insecureSchemeActive": false,
+        "insecureSchemePassive": false,
+        "strictDynamic": false,
+        "unsafeEval": true,
+        "unsafeInline": true,
+        "unsafeInlineStyle": true,
+        "unsafeObjects": false
+      },
+      "numPolicies": 1
+    },
+    "cookies": {
+      "expectation": "cookies-secure-with-httponly-sessions",
+      "pass": false,
+      "result": "cookies-session-without-secure-flag-but-protected-by-hsts",
+      "scoreModifier": -10,
+      "data": {
+        "TS01479bf2": {
+          "domain": "www.cesu.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "TS3ab25f03029": {
+          "domain": "www.cesu.urssaf.fr",
+          "max-age": 30,
+          "path": "/",
+          "port": null
+        },
+        "TS1c4bd837027": {
+          "domain": "www.cesu.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "JSESSIONID": {
+          "domain": "www.cesu.urssaf.fr",
+          "httponly": true,
+          "path": "/info/",
+          "port": null
+        },
+        "TS017ce0d3": {
+          "domain": "www.cesu.urssaf.fr",
+          "path": "/info/",
+          "port": null
+        }
+      },
+      "sameSite": false
+    },
+    "cross-origin-resource-sharing": {
+      "expectation": "cross-origin-resource-sharing-not-implemented",
+      "pass": true,
+      "result": "cross-origin-resource-sharing-not-implemented",
+      "scoreModifier": 0,
+      "data": null
+    },
+    "redirection": {
+      "expectation": "redirection-to-https",
+      "pass": true,
+      "result": "redirection-to-https",
+      "scoreModifier": 0,
+      "destination": "https://www.cesu.urssaf.fr/info/accueil.html",
+      "redirects": true,
+      "route": [
+        "http://www.cesu.urssaf.fr/",
+        "https://www.cesu.urssaf.fr/",
+        "https://www.cesu.urssaf.fr/info/",
+        "https://www.cesu.urssaf.fr/info/accueil.html"
+      ],
+      "statusCode": 200
+    },
+    "referrer-policy": {
+      "expectation": "referrer-policy-private",
+      "pass": true,
+      "result": "referrer-policy-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    },
+    "strict-transport-security": {
+      "expectation": "hsts-implemented-max-age-at-least-six-months",
+      "pass": true,
+      "result": "hsts-implemented-max-age-at-least-six-months",
+      "scoreModifier": 0,
+      "data": "max-age=16070400; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "maxAge": 16070400,
+      "preload": true,
+      "preloaded": false
+    },
+    "subresource-integrity": {
+      "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+      "pass": true,
+      "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
+      "scoreModifier": 0,
+      "data": {}
+    },
+    "x-content-type-options": {
+      "expectation": "x-content-type-options-nosniff",
+      "pass": true,
+      "result": "x-content-type-options-nosniff",
+      "scoreModifier": 0,
+      "data": "nosniff"
+    },
+    "x-frame-options": {
+      "expectation": "x-frame-options-sameorigin-or-deny",
+      "pass": false,
+      "result": "x-frame-options-not-implemented",
+      "scoreModifier": -20,
+      "data": null
+    },
+    "cross-origin-resource-policy": {
+      "expectation": "corp-implemented-with-same-site",
+      "pass": true,
+      "result": "corp-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    }
+  }
+}
