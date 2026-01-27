@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.cesu.urssaf.fr/decla/index.html",
+        "size": 5169.0,
+        "nodes": 605,
+        "requests": 123,
+        "grade": "E",
+        "score": 36.0,
+        "ges": 2.28,
+        "water": 3.42,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-01-27 18:38:08.464056",
+        "page_type": null
+    }
+]
