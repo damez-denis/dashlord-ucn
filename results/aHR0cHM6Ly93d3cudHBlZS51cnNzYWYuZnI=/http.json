@@ -1,0 +1,136 @@
+{
+  "scan": {
+    "algorithmVersion": 4,
+    "grade": "C-",
+    "error": null,
+    "score": 45,
+    "statusCode": 200,
+    "testsFailed": 4,
+    "testsPassed": 6,
+    "testsQuantity": 10,
+    "responseHeaders": {
+      "date": "Tue, 27 Jan 2026 19:42:36 GMT",
+      "last-modified": "Mon, 27 Feb 2023 09:03:52 GMT",
+      "etag": "\"72-c2066e00\"",
+      "accept-ranges": "bytes",
+      "content-type": "text/html; charset=UTF-8",
+      "connection": "close",
+      "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+      "vary": "Accept-Encoding",
+      "set-cookie": [
+        "TS01894cc2=01726d0b82888602dc19bdc5f64185dbbf6e23739b28db433409cdc4967bdd72db9610b92516e0cf9ff6fd16493238bf3069d8d984; Path=/",
+        "TS5d88df92029=08285ff142ab2800df491fad0011a9dfbd72f0b718ddcf018ca7fd01ba0db14e76a875089a59a2a839657ed726a8018d; Max-Age=30; Path=/",
+        "TS7b7158a6027=08285ff142ab20008aa890d779340189b18c18ef36299874d0c6f95f87d1a056ac6aeb9e880208cc085654b92f1130005fa30f133ace17461009c029293c26a7cc282310864cc78ae3aafd2c0f22b638284d08ae89b2579f9d72d04da9ba6001; Path=/"
+      ],
+      "transfer-encoding": "chunked"
+    }
+  },
+  "tests": {
+    "content-security-policy": {
+      "expectation": "csp-implemented-with-no-unsafe",
+      "pass": false,
+      "result": "csp-not-implemented",
+      "scoreModifier": -25,
+      "data": null,
+      "http": false,
+      "meta": false,
+      "policy": null,
+      "numPolicies": 0
+    },
+    "cookies": {
+      "expectation": "cookies-secure-with-httponly-sessions",
+      "pass": false,
+      "result": "cookies-without-secure-flag-but-protected-by-hsts",
+      "scoreModifier": -5,
+      "data": {
+        "TS01894cc2": {
+          "domain": "www.tpee.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "TS5d88df92029": {
+          "domain": "www.tpee.urssaf.fr",
+          "max-age": 30,
+          "path": "/",
+          "port": null
+        },
+        "TS7b7158a6027": {
+          "domain": "www.tpee.urssaf.fr",
+          "path": "/",
+          "port": null
+        }
+      },
+      "sameSite": false
+    },
+    "cross-origin-resource-sharing": {
+      "expectation": "cross-origin-resource-sharing-not-implemented",
+      "pass": true,
+      "result": "cross-origin-resource-sharing-not-implemented",
+      "scoreModifier": 0,
+      "data": null
+    },
+    "redirection": {
+      "expectation": "redirection-to-https",
+      "pass": true,
+      "result": "redirection-to-https",
+      "scoreModifier": 0,
+      "destination": "https://www.tpee.urssaf.fr/",
+      "redirects": true,
+      "route": [
+        "http://www.tpee.urssaf.fr/",
+        "https://www.tpee.urssaf.fr/"
+      ],
+      "statusCode": 200
+    },
+    "referrer-policy": {
+      "expectation": "referrer-policy-private",
+      "pass": true,
+      "result": "referrer-policy-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    },
+    "strict-transport-security": {
+      "expectation": "hsts-implemented-max-age-at-least-six-months",
+      "pass": true,
+      "result": "hsts-implemented-max-age-at-least-six-months",
+      "scoreModifier": 0,
+      "data": "max-age=16070400; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "maxAge": 16070400,
+      "preload": true,
+      "preloaded": false
+    },
+    "subresource-integrity": {
+      "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+      "pass": true,
+      "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
+      "scoreModifier": 0,
+      "data": {}
+    },
+    "x-content-type-options": {
+      "expectation": "x-content-type-options-nosniff",
+      "pass": false,
+      "result": "x-content-type-options-not-implemented",
+      "scoreModifier": -5,
+      "data": null
+    },
+    "x-frame-options": {
+      "expectation": "x-frame-options-sameorigin-or-deny",
+      "pass": false,
+      "result": "x-frame-options-not-implemented",
+      "scoreModifier": -20,
+      "data": null
+    },
+    "cross-origin-resource-policy": {
+      "expectation": "corp-implemented-with-same-site",
+      "pass": true,
+      "result": "corp-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    }
+  }
+}
