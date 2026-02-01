@@ -18,18 +18,12 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 27 Jan 2026 17:58:06 GMT",
+          "date": "Sun, 01 Feb 2026 03:04:39 GMT",
           "content-type": "text/html;charset=UTF-8",
           "connection": "close",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
           "pragma": "no-cache",
-          "set-cookie": [
-            "JSESSIONID=5FC755F5A3B3459262BD8BC6C4EC44D0; Path=/; Secure; HttpOnly",
-            "TS01c7b25a=01726d0b82e5dd42bdb370b53126cb09d211806c85e85b16af7b5a6d2f372a6b9937b97113029c8064a0178602324d9474dcf0bb6eec81992f75cb566ec6528219d84dd118; Path=/; Domain=.www.urssaf.fr",
-            "TSb749e220029=08285ff142ab28004f4fec540524fe17fc69dab71e622a1ecca246fb526dc7d696532ff7cd0ac3944634d33920563819; Max-Age=30; Path=/",
-            "TS91b06514027=08285ff142ab200017dc389b46cb932f83d46b59861a7b93b252826f5212c2608afefc27a097b9c6088475a9f01130005bd12cfd3beab3cb392cfac955b5f04477ea412299fc3cbf137bdc9da9eba2c82b359ca236bf0af23db7ec42ccd0470b; Path=/"
-          ],
           "vary": "accept-encoding",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "x-content-type-options": "nosniff",
@@ -39,6 +33,10 @@
           "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
           "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
           "access-control-max-age": "1728000",
+          "set-cookie": [
+            "TSb749e220029=08285ff142ab280047c19336ba5d6df8d4a9d9d656bc7eb90e93773ae62d523cc0407a0e06b4bb42cce56ae0b7ac7716; Max-Age=30; Path=/",
+            "TS91b06514027=08285ff142ab200004f770d26b0a06db9377017d74aaff64d8c1810197a6ada799f198eae6cff482088fc4ad1f1130002943a39656f1b2f3ae1bd454c2eb4704893344192e5a1234430cd1e8fc76201584f1c072c6f75d584a78596e62886c42; Path=/"
+          ],
           "transfer-encoding": "chunked"
         }
       },
@@ -516,7 +514,7 @@
         "ip": "www.urssaf.fr/193.178.136.246",
         "port": "443",
         "severity": "OK",
-        "finding": "85 >= 60 days"
+        "finding": "80 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -1188,7 +1186,7 @@
         "ip": "www.urssaf.fr/193.178.136.246",
         "port": "443",
         "severity": "INFO",
-        "finding": "94"
+        "finding": "54"
       }
     ],
     "thirdparties": {
@@ -1227,8 +1225,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Tue, 27 Jan 2026 17:57:13",
-      "created": "2026-01-27T17:57:13.553639459Z",
+      "@generated": "Sun, 1 Feb 2026 03:03:46",
+      "created": "2026-02-01T03:03:46.086409552Z",
       "insights": [
         {
           "level": "Info",
@@ -1405,7 +1403,7 @@
       {
         "requestedUrl": "https://www.urssaf.fr/",
         "finalUrl": "https://www.urssaf.fr/accueil.html",
-        "fetchTime": "2026-01-27T17:57:29.299Z",
+        "fetchTime": "2026-02-01T03:04:02.311Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.urssaf.fr/) was redirected to https://www.urssaf.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -1418,7 +1416,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.15
+            "score": 0.16
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1470,53 +1468,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 30257,
+            "numericValue": 28001,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 12554,
-                  "firstMeaningfulPaint": 12554,
-                  "largestContentfulPaint": 13530,
-                  "interactive": 30257,
-                  "speedIndex": 15133,
-                  "totalBlockingTime": 4726,
-                  "maxPotentialFID": 3111,
+                  "firstContentfulPaint": 12178,
+                  "firstMeaningfulPaint": 12178,
+                  "largestContentfulPaint": 12992,
+                  "interactive": 28001,
+                  "speedIndex": 13280,
+                  "totalBlockingTime": 4235,
+                  "maxPotentialFID": 2830,
                   "cumulativeLayoutShift": 0.031874011569552954,
                   "cumulativeLayoutShiftMainFrame": 0.031874011569552954,
                   "totalCumulativeLayoutShift": 0.031874011569552954,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 718581782,
+                  "observedTimeOriginTs": 796360374,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 718581782,
-                  "observedFirstPaint": 3364,
-                  "observedFirstPaintTs": 721945875,
-                  "observedFirstContentfulPaint": 3364,
-                  "observedFirstContentfulPaintTs": 721945875,
-                  "observedFirstContentfulPaintAllFrames": 3364,
-                  "observedFirstContentfulPaintAllFramesTs": 721945875,
-                  "observedFirstMeaningfulPaint": 3432,
-                  "observedFirstMeaningfulPaintTs": 722014257,
-                  "observedLargestContentfulPaint": 3432,
-                  "observedLargestContentfulPaintTs": 722014257,
-                  "observedLargestContentfulPaintAllFrames": 3432,
-                  "observedLargestContentfulPaintAllFramesTs": 722014257,
-                  "observedTraceEnd": 8947,
-                  "observedTraceEndTs": 727528949,
-                  "observedLoad": 5649,
-                  "observedLoadTs": 724230685,
-                  "observedDomContentLoaded": 3575,
-                  "observedDomContentLoadedTs": 722157074,
+                  "observedNavigationStartTs": 796360374,
+                  "observedFirstPaint": 2305,
+                  "observedFirstPaintTs": 798665036,
+                  "observedFirstContentfulPaint": 2305,
+                  "observedFirstContentfulPaintTs": 798665036,
+                  "observedFirstContentfulPaintAllFrames": 2305,
+                  "observedFirstContentfulPaintAllFramesTs": 798665036,
+                  "observedFirstMeaningfulPaint": 2348,
+                  "observedFirstMeaningfulPaintTs": 798708135,
+                  "observedLargestContentfulPaint": 2348,
+                  "observedLargestContentfulPaintTs": 798708135,
+                  "observedLargestContentfulPaintAllFrames": 2348,
+                  "observedLargestContentfulPaintAllFramesTs": 798708135,
+                  "observedTraceEnd": 7647,
+                  "observedTraceEndTs": 804006917,
+                  "observedLoad": 4721,
+                  "observedLoadTs": 801081820,
+                  "observedDomContentLoaded": 2463,
+                  "observedDomContentLoadedTs": 798823797,
                   "observedCumulativeLayoutShift": 0.031874011569552954,
                   "observedCumulativeLayoutShiftMainFrame": 0.031874011569552954,
                   "observedTotalCumulativeLayoutShift": 0.031874011569552954,
-                  "observedFirstVisualChange": 3364,
-                  "observedFirstVisualChangeTs": 721945782,
-                  "observedLastVisualChange": 6651,
-                  "observedLastVisualChangeTs": 725232782,
-                  "observedSpeedIndex": 3564,
-                  "observedSpeedIndexTs": 722146170
+                  "observedFirstVisualChange": 2305,
+                  "observedFirstVisualChangeTs": 798665374,
+                  "observedLastVisualChange": 5202,
+                  "observedLastVisualChangeTs": 801562374,
+                  "observedSpeedIndex": 2455,
+                  "observedSpeedIndexTs": 798815113
                 },
                 {
                   "lcpInvalidated": false
@@ -1538,19 +1536,19 @@
                   "numScripts": 15,
                   "numStylesheets": 5,
                   "numFonts": 5,
-                  "numTasks": 4039,
-                  "numTasksOver10ms": 24,
-                  "numTasksOver25ms": 11,
-                  "numTasksOver50ms": 5,
+                  "numTasks": 3602,
+                  "numTasksOver10ms": 20,
+                  "numTasksOver25ms": 9,
+                  "numTasksOver50ms": 4,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 2,
-                  "rtt": 8.416000000000004,
-                  "throughput": 10770202.730067201,
-                  "maxRtt": 140.38100000000003,
-                  "maxServerLatency": 192.71800000000002,
-                  "totalByteWeight": 6217749,
-                  "totalTaskTime": 2349.2499999999927,
-                  "mainDocumentTransferSize": 316836
+                  "rtt": 2.2439999999999998,
+                  "throughput": 14817962.326095236,
+                  "maxRtt": 91.47200000000001,
+                  "maxServerLatency": 7.959999999999994,
+                  "totalByteWeight": 5887028,
+                  "totalTaskTime": 2082.2840000000033,
+                  "mainDocumentTransferSize": 315890
                 }
               ]
             }
@@ -1572,15 +1570,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.urssaf.fr",
-        "size": 7504.171,
-        "nodes": 3909,
+        "size": 7170.612,
+        "nodes": 3905,
         "requests": 78,
         "grade": "F",
         "score": 20,
         "ges": 2.6,
         "water": 3.9,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-27 17:48:31.035315",
+        "date": "2026-02-01 02:55:04.232860",
         "page_type": null
       }
     ],
@@ -1598,7 +1596,7 @@
       "trackersCount": null,
       "zapCount": 11,
       "zapGrade": "D",
-      "lighthouse_performance": 0.15,
+      "lighthouse_performance": 0.16,
       "lighthouse_performanceGrade": "F",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
@@ -1630,7 +1628,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 27 Jan 2026 18:26:50 GMT",
+          "date": "Sun, 01 Feb 2026 03:31:51 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache,no-store,must-revalidate",
           "pragma": "no-cache, no-cache",
@@ -1642,8 +1640,8 @@
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "set-cookie": [
-            "TS6bd60791029=08285ff142ab2800c072a6556384d86bef70555e2848388d0c533f179c45e4411b23f6afc01bfa76042a3ce78105d54b; Max-Age=30; Path=/",
-            "TS4d2f80a5027=08285ff142ab200062db2382e82d45a8086ab63015e7d73df1e0ba87fe304216cbb942f6699b851c08ddf7cc0b113000801e8a895c81c97477e0ceb57118c23dfa1f9d986ac1d8d0e92a35be07c2f4209f1ea5eca2935a7cf2b64bb1f1e6e58c; Path=/"
+            "TS6bd60791029=08285ff142ab28000d0b6479bcc5ebc176850da763701b08e5d77d4153f8119bf56e94a8f6aeb78a9b873159ef8336c9; Max-Age=30; Path=/",
+            "TS4d2f80a5027=08285ff142ab20009b6d283f3795851cdbfd2287c48f3c2cf22b3af36178afcc070d73451a9f842c08627812c21130000399ab601d8eb06085bbe1c3ca8114d4984ad3c7a329d12a413bb7fb4f4cc4965f64b50a0ba4ee85f59fc6e54e958d57; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -2212,7 +2210,7 @@
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "OK",
-        "finding": "65 >= 60 days"
+        "finding": "60 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -2884,7 +2882,7 @@
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "102"
+        "finding": "115"
       }
     ],
     "thirdparties": {
@@ -2904,8 +2902,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Tue, 27 Jan 2026 18:25:06",
-      "created": "2026-01-27T18:25:06.263479504Z",
+      "@generated": "Sun, 1 Feb 2026 03:31:00",
+      "created": "2026-02-01T03:31:00.290194327Z",
       "insights": [
         {
           "level": "Info",
@@ -3103,7 +3101,7 @@
       {
         "requestedUrl": "https://www.autoentrepreneur.urssaf.fr/",
         "finalUrl": "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html",
-        "fetchTime": "2026-01-27T18:25:28.404Z",
+        "fetchTime": "2026-02-01T03:31:16.526Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.autoentrepreneur.urssaf.fr/) was redirected to https://www.autoentrepreneur.urssaf.fr/portail/accueil.html. Try testing the second URL directly."
         ],
@@ -3168,53 +3166,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 17420,
+            "numericValue": 18309,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6323,
-                  "firstMeaningfulPaint": 6323,
-                  "largestContentfulPaint": 7227,
-                  "interactive": 17420,
-                  "speedIndex": 10080,
-                  "totalBlockingTime": 5906,
-                  "maxPotentialFID": 2950,
+                  "firstContentfulPaint": 6699,
+                  "firstMeaningfulPaint": 6699,
+                  "largestContentfulPaint": 7532,
+                  "interactive": 18309,
+                  "speedIndex": 9874,
+                  "totalBlockingTime": 6179,
+                  "maxPotentialFID": 3165,
                   "cumulativeLayoutShift": 0.0693603515625,
                   "cumulativeLayoutShiftMainFrame": 0.0693603515625,
                   "totalCumulativeLayoutShift": 0.0693603515625,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 795872104,
+                  "observedTimeOriginTs": 793715956,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 795872104,
-                  "observedFirstPaint": 1535,
-                  "observedFirstPaintTs": 797406860,
-                  "observedFirstContentfulPaint": 1535,
-                  "observedFirstContentfulPaintTs": 797406860,
-                  "observedFirstContentfulPaintAllFrames": 1535,
-                  "observedFirstContentfulPaintAllFramesTs": 797406860,
-                  "observedFirstMeaningfulPaint": 1535,
-                  "observedFirstMeaningfulPaintTs": 797406860,
-                  "observedLargestContentfulPaint": 1535,
-                  "observedLargestContentfulPaintTs": 797406860,
-                  "observedLargestContentfulPaintAllFrames": 1535,
-                  "observedLargestContentfulPaintAllFramesTs": 797406860,
-                  "observedTraceEnd": 6770,
-                  "observedTraceEndTs": 802642151,
-                  "observedLoad": 3601,
-                  "observedLoadTs": 799472947,
-                  "observedDomContentLoaded": 1561,
-                  "observedDomContentLoadedTs": 797433157,
+                  "observedNavigationStartTs": 793715956,
+                  "observedFirstPaint": 1898,
+                  "observedFirstPaintTs": 795614079,
+                  "observedFirstContentfulPaint": 1898,
+                  "observedFirstContentfulPaintTs": 795614079,
+                  "observedFirstContentfulPaintAllFrames": 1898,
+                  "observedFirstContentfulPaintAllFramesTs": 795614079,
+                  "observedFirstMeaningfulPaint": 1898,
+                  "observedFirstMeaningfulPaintTs": 795614079,
+                  "observedLargestContentfulPaint": 1898,
+                  "observedLargestContentfulPaintTs": 795614079,
+                  "observedLargestContentfulPaintAllFrames": 1898,
+                  "observedLargestContentfulPaintAllFramesTs": 795614079,
+                  "observedTraceEnd": 7709,
+                  "observedTraceEndTs": 801424986,
+                  "observedLoad": 4553,
+                  "observedLoadTs": 798269312,
+                  "observedDomContentLoaded": 1883,
+                  "observedDomContentLoadedTs": 795598673,
                   "observedCumulativeLayoutShift": 0.0693603515625,
                   "observedCumulativeLayoutShiftMainFrame": 0.0693603515625,
                   "observedTotalCumulativeLayoutShift": 0.0693603515625,
-                  "observedFirstVisualChange": 1535,
-                  "observedFirstVisualChangeTs": 797407104,
-                  "observedLastVisualChange": 4698,
-                  "observedLastVisualChangeTs": 800570104,
-                  "observedSpeedIndex": 2046,
-                  "observedSpeedIndexTs": 797918450
+                  "observedFirstVisualChange": 1899,
+                  "observedFirstVisualChangeTs": 795614956,
+                  "observedLastVisualChange": 5490,
+                  "observedLastVisualChangeTs": 799205956,
+                  "observedSpeedIndex": 2535,
+                  "observedSpeedIndexTs": 796250663
                 },
                 {
                   "lcpInvalidated": false
@@ -3236,19 +3234,19 @@
                   "numScripts": 12,
                   "numStylesheets": 4,
                   "numFonts": 2,
-                  "numTasks": 2628,
-                  "numTasksOver10ms": 18,
+                  "numTasks": 3188,
+                  "numTasksOver10ms": 17,
                   "numTasksOver25ms": 10,
-                  "numTasksOver50ms": 4,
+                  "numTasksOver50ms": 6,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 2,
-                  "rtt": 1.3889999999999816,
-                  "throughput": 10347916.932746796,
-                  "maxRtt": 106.423,
-                  "maxServerLatency": 56.519000000000034,
-                  "totalByteWeight": 2435174,
-                  "totalTaskTime": 2181.9320000000075,
-                  "mainDocumentTransferSize": 116457
+                  "rtt": 17.114999999999995,
+                  "throughput": 8792397.032535108,
+                  "maxRtt": 129.82399999999998,
+                  "maxServerLatency": 32.99499999999995,
+                  "totalByteWeight": 2602782,
+                  "totalTaskTime": 2242.2949999999996,
+                  "mainDocumentTransferSize": 114615
                 }
               ]
             }
@@ -3270,7 +3268,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.autoentrepreneur.urssaf.fr",
-        "size": 3351.12,
+        "size": 3516.113,
         "nodes": 633,
         "requests": 69,
         "grade": "D",
@@ -3278,7 +3276,7 @@
         "ges": 2.08,
         "water": 3.12,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-27 18:14:26.294972",
+        "date": "2026-02-01 03:22:07.519593",
         "page_type": null
       }
     ],
@@ -3328,7 +3326,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 27 Jan 2026 18:23:51 GMT",
+          "date": "Sun, 01 Feb 2026 03:31:50 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache,no-store,must-revalidate",
           "pragma": "no-cache, no-cache",
@@ -3340,8 +3338,8 @@
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "set-cookie": [
-            "TS6bd60791029=08285ff142ab280069556e5a02b6c42df5f95c06e0489c5529bdf50bdd7031a78a17d21bb0d07524efda4a9a2864e707; Max-Age=30; Path=/",
-            "TS4d2f80a5027=08285ff142ab20004098043ff65b6fb462b5a364b86ada5ef9fd760f852d28c73cb58e523445ed200864b9368a1130007d683209434ecf8bba89db071edcc1028f1655a6ae2b3fbbe298ef4390ef23f04f9f1f3881d694eadaf4e1d033cf129e; Path=/"
+            "TS6bd60791029=08285ff142ab28001b667c826253788739ac692519779a4a2d3a79e376b3620178a71ba37f6d8128ae539e87b791ba83; Max-Age=30; Path=/",
+            "TS4d2f80a5027=08285ff142ab2000d4b431ea60cba32d3446f225e59a15dbbcd6de0a22a6a54247ed72b8be2d5cba08bc84c00b113000e37284bfc7c043614a63077f3faf51d71933adaca5502ea0bbf8bf2b68f1b38f4153622baafcff85a77d09dfae1e84bd; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -3916,7 +3914,7 @@
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "OK",
-        "finding": "65 >= 60 days"
+        "finding": "60 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -4588,7 +4586,7 @@
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "73"
+        "finding": "80"
       }
     ],
     "thirdparties": {
@@ -4608,8 +4606,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Tue, 27 Jan 2026 18:22:57",
-      "created": "2026-01-27T18:22:57.808777297Z",
+      "@generated": "Sun, 1 Feb 2026 03:30:58",
+      "created": "2026-02-01T03:30:58.247304161Z",
       "insights": [
         {
           "level": "Info",
@@ -4831,7 +4829,7 @@
       {
         "requestedUrl": "https://autoentrepreneur.urssaf.fr/services",
         "finalUrl": "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html",
-        "fetchTime": "2026-01-27T18:23:13.028Z",
+        "fetchTime": "2026-02-01T03:31:14.191Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://autoentrepreneur.urssaf.fr/services) was redirected to https://www.autoentrepreneur.urssaf.fr/portail/accueil.html. Try testing the second URL directly."
         ],
@@ -4844,7 +4842,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.16
+            "score": 0.17
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4896,53 +4894,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 18087,
+            "numericValue": 19052,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7103,
-                  "firstMeaningfulPaint": 7103,
-                  "largestContentfulPaint": 7685,
-                  "interactive": 18087,
-                  "speedIndex": 10400,
-                  "totalBlockingTime": 5883,
-                  "maxPotentialFID": 2877,
+                  "firstContentfulPaint": 7161,
+                  "firstMeaningfulPaint": 7161,
+                  "largestContentfulPaint": 7883,
+                  "interactive": 19052,
+                  "speedIndex": 9634,
+                  "totalBlockingTime": 5948,
+                  "maxPotentialFID": 2893,
                   "cumulativeLayoutShift": 0.0693603515625,
                   "cumulativeLayoutShiftMainFrame": 0.0693603515625,
                   "totalCumulativeLayoutShift": 0.0693603515625,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 887914349,
+                  "observedTimeOriginTs": 659343574,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 887914349,
-                  "observedFirstPaint": 1720,
-                  "observedFirstPaintTs": 889633961,
-                  "observedFirstContentfulPaint": 1720,
-                  "observedFirstContentfulPaintTs": 889633961,
-                  "observedFirstContentfulPaintAllFrames": 1720,
-                  "observedFirstContentfulPaintAllFramesTs": 889633961,
-                  "observedFirstMeaningfulPaint": 1720,
-                  "observedFirstMeaningfulPaintTs": 889633961,
-                  "observedLargestContentfulPaint": 1720,
-                  "observedLargestContentfulPaintTs": 889633961,
-                  "observedLargestContentfulPaintAllFrames": 1720,
-                  "observedLargestContentfulPaintAllFramesTs": 889633961,
-                  "observedTraceEnd": 6732,
-                  "observedTraceEndTs": 894646492,
-                  "observedLoad": 3710,
-                  "observedLoadTs": 891624207,
-                  "observedDomContentLoaded": 1752,
-                  "observedDomContentLoadedTs": 889666460,
+                  "observedNavigationStartTs": 659343574,
+                  "observedFirstPaint": 1957,
+                  "observedFirstPaintTs": 661300682,
+                  "observedFirstContentfulPaint": 1957,
+                  "observedFirstContentfulPaintTs": 661300682,
+                  "observedFirstContentfulPaintAllFrames": 1957,
+                  "observedFirstContentfulPaintAllFramesTs": 661300682,
+                  "observedFirstMeaningfulPaint": 1957,
+                  "observedFirstMeaningfulPaintTs": 661300682,
+                  "observedLargestContentfulPaint": 1957,
+                  "observedLargestContentfulPaintTs": 661300682,
+                  "observedLargestContentfulPaintAllFrames": 1957,
+                  "observedLargestContentfulPaintAllFramesTs": 661300682,
+                  "observedTraceEnd": 7479,
+                  "observedTraceEndTs": 666822353,
+                  "observedLoad": 4476,
+                  "observedLoadTs": 663819220,
+                  "observedDomContentLoaded": 1986,
+                  "observedDomContentLoadedTs": 661329362,
                   "observedCumulativeLayoutShift": 0.0693603515625,
                   "observedCumulativeLayoutShiftMainFrame": 0.0693603515625,
                   "observedTotalCumulativeLayoutShift": 0.0693603515625,
-                  "observedFirstVisualChange": 1719,
-                  "observedFirstVisualChangeTs": 889633349,
-                  "observedLastVisualChange": 4485,
-                  "observedLastVisualChangeTs": 892399349,
-                  "observedSpeedIndex": 2200,
-                  "observedSpeedIndexTs": 890114775
+                  "observedFirstVisualChange": 1957,
+                  "observedFirstVisualChangeTs": 661300574,
+                  "observedLastVisualChange": 5588,
+                  "observedLastVisualChangeTs": 664931574,
+                  "observedSpeedIndex": 2562,
+                  "observedSpeedIndexTs": 661905374
                 },
                 {
                   "lcpInvalidated": false
@@ -4964,19 +4962,19 @@
                   "numScripts": 12,
                   "numStylesheets": 4,
                   "numFonts": 2,
-                  "numTasks": 2870,
-                  "numTasksOver10ms": 17,
+                  "numTasks": 3244,
+                  "numTasksOver10ms": 20,
                   "numTasksOver25ms": 11,
-                  "numTasksOver50ms": 5,
+                  "numTasksOver50ms": 4,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 2,
-                  "rtt": 5.222000000000008,
-                  "throughput": 13650492.467415843,
-                  "maxRtt": 89.395,
-                  "maxServerLatency": 58.977999999999994,
-                  "totalByteWeight": 2433225,
-                  "totalTaskTime": 2212.0720000000038,
-                  "mainDocumentTransferSize": 116444
+                  "rtt": 1.5850000000000364,
+                  "throughput": 12850511.08356224,
+                  "maxRtt": 101.601,
+                  "maxServerLatency": 75.054,
+                  "totalByteWeight": 2603400,
+                  "totalTaskTime": 2266.893000000011,
+                  "mainDocumentTransferSize": 114616
                 }
               ]
             }
@@ -4998,7 +4996,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://autoentrepreneur.urssaf.fr/services",
-        "size": 3348.765,
+        "size": 3515.514,
         "nodes": 633,
         "requests": 69,
         "grade": "D",
@@ -5006,7 +5004,7 @@
         "ges": 2.08,
         "water": 3.12,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-27 18:14:13.818855",
+        "date": "2026-02-01 03:22:09.906997",
         "page_type": null
       }
     ],
@@ -5024,8 +5022,8 @@
       "trackersCount": null,
       "zapCount": 14,
       "zapGrade": "D",
-      "lighthouse_performance": 0.16,
-      "lighthouse_performanceGrade": "F",
+      "lighthouse_performance": 0.17,
+      "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.88,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -5056,7 +5054,7 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 27 Jan 2026 18:46:52 GMT",
+          "date": "Sun, 01 Feb 2026 03:53:03 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
           "pragma": "no-cache",
@@ -5068,8 +5066,8 @@
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "set-cookie": [
-            "TS3ab25f03029=08285ff142ab28003f2fa902c82a118fd2af1c46c8891819738bb459c30555550bdda1ab8c2d40cce6c4a35aacef200b; Max-Age=30; Path=/",
-            "TS1c4bd837027=08285ff142ab20006044c3a2b3d41ac3aeeaae31024172139389b7caadb628d5b9f9f448b5ca8a65080453e1f2113000fda6a89d2a4954a24e7965439ba4d5e0cbfc9b64ee12b384479b91799fae84d0eaf6898d74a0e2746bb13b8b7cd33ca9; Path=/"
+            "TS3ab25f03029=08285ff142ab2800e91269cc1e1022f826850e663eb1c0f9218b357ef18283029108a3992b94dd53418b362bebe9acc8; Max-Age=30; Path=/",
+            "TS1c4bd837027=08285ff142ab2000a4c69fa5859b0df83ecc3df593efa39a83a5f3614d9a9baf2bdf056a200e62d108865ae52b1130000a307319187efc6e4f8c6a2e0fe31bf2d8d0a3d75c1cbfaf8edab3cd74d3db99a6c586bdab2f217a63cd2d675535f2d9; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -5601,7 +5599,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "OK",
-        "finding": "217 >= 60 days"
+        "finding": "212 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -6273,7 +6271,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "96"
+        "finding": "55"
       }
     ],
     "thirdparties": {
@@ -6293,8 +6291,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Tue, 27 Jan 2026 18:45:58",
-      "created": "2026-01-27T18:45:58.951563085Z",
+      "@generated": "Sun, 1 Feb 2026 03:52:18",
+      "created": "2026-02-01T03:52:18.964893773Z",
       "insights": [
         {
           "level": "Info",
@@ -6471,7 +6469,7 @@
       {
         "requestedUrl": "https://www.cesu.urssaf.fr/",
         "finalUrl": "https://www.cesu.urssaf.fr/info/accueil.html",
-        "fetchTime": "2026-01-27T18:46:15.242Z",
+        "fetchTime": "2026-02-01T03:52:33.113Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.cesu.urssaf.fr/) was redirected to https://www.cesu.urssaf.fr/info/accueil.html. Try testing the second URL directly."
         ],
@@ -6536,53 +6534,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 21266,
+            "numericValue": 22964,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7022,
-                  "firstMeaningfulPaint": 7022,
-                  "largestContentfulPaint": 21120,
-                  "interactive": 21266,
-                  "speedIndex": 11515,
-                  "totalBlockingTime": 3984,
-                  "maxPotentialFID": 2901,
+                  "firstContentfulPaint": 6453,
+                  "firstMeaningfulPaint": 6453,
+                  "largestContentfulPaint": 20823,
+                  "interactive": 22964,
+                  "speedIndex": 11707,
+                  "totalBlockingTime": 8612,
+                  "maxPotentialFID": 4245,
                   "cumulativeLayoutShift": 0.014992218017578125,
                   "cumulativeLayoutShiftMainFrame": 0.014992218017578125,
                   "totalCumulativeLayoutShift": 0.014992218017578125,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 689446878,
+                  "observedTimeOriginTs": 643811562,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 689446878,
-                  "observedFirstPaint": 1984,
-                  "observedFirstPaintTs": 691430847,
-                  "observedFirstContentfulPaint": 1984,
-                  "observedFirstContentfulPaintTs": 691430847,
-                  "observedFirstContentfulPaintAllFrames": 1984,
-                  "observedFirstContentfulPaintAllFramesTs": 691430847,
-                  "observedFirstMeaningfulPaint": 1984,
-                  "observedFirstMeaningfulPaintTs": 691430847,
-                  "observedLargestContentfulPaint": 3834,
-                  "observedLargestContentfulPaintTs": 693280393,
-                  "observedLargestContentfulPaintAllFrames": 3834,
-                  "observedLargestContentfulPaintAllFramesTs": 693280393,
-                  "observedTraceEnd": 6118,
-                  "observedTraceEndTs": 695564483,
-                  "observedLoad": 3808,
-                  "observedLoadTs": 693254972,
-                  "observedDomContentLoaded": 2304,
-                  "observedDomContentLoadedTs": 691750783,
+                  "observedNavigationStartTs": 643811562,
+                  "observedFirstPaint": 1540,
+                  "observedFirstPaintTs": 645351267,
+                  "observedFirstContentfulPaint": 1540,
+                  "observedFirstContentfulPaintTs": 645351267,
+                  "observedFirstContentfulPaintAllFrames": 1540,
+                  "observedFirstContentfulPaintAllFramesTs": 645351267,
+                  "observedFirstMeaningfulPaint": 1540,
+                  "observedFirstMeaningfulPaintTs": 645351267,
+                  "observedLargestContentfulPaint": 4155,
+                  "observedLargestContentfulPaintTs": 647966647,
+                  "observedLargestContentfulPaintAllFrames": 4155,
+                  "observedLargestContentfulPaintAllFramesTs": 647966647,
+                  "observedTraceEnd": 6429,
+                  "observedTraceEndTs": 650240419,
+                  "observedLoad": 4117,
+                  "observedLoadTs": 647928600,
+                  "observedDomContentLoaded": 1741,
+                  "observedDomContentLoadedTs": 645553029,
                   "observedCumulativeLayoutShift": 0.014992218017578125,
                   "observedCumulativeLayoutShiftMainFrame": 0.014992218017578125,
                   "observedTotalCumulativeLayoutShift": 0.014992218017578125,
-                  "observedFirstVisualChange": 1984,
-                  "observedFirstVisualChangeTs": 691430878,
-                  "observedLastVisualChange": 4467,
-                  "observedLastVisualChangeTs": 693913878,
-                  "observedSpeedIndex": 2931,
-                  "observedSpeedIndexTs": 692378325
+                  "observedFirstVisualChange": 1540,
+                  "observedFirstVisualChangeTs": 645351562,
+                  "observedLastVisualChange": 4953,
+                  "observedLastVisualChangeTs": 648764562,
+                  "observedSpeedIndex": 2863,
+                  "observedSpeedIndexTs": 646674893
                 },
                 {
                   "lcpInvalidated": false
@@ -6604,19 +6602,19 @@
                   "numScripts": 15,
                   "numStylesheets": 4,
                   "numFonts": 0,
-                  "numTasks": 2832,
-                  "numTasksOver10ms": 18,
-                  "numTasksOver25ms": 7,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 2165,
+                  "numTasksOver10ms": 27,
+                  "numTasksOver25ms": 16,
+                  "numTasksOver50ms": 10,
                   "numTasksOver100ms": 3,
-                  "numTasksOver500ms": 1,
-                  "rtt": 9.566999999999979,
-                  "throughput": 9151517.274779407,
-                  "maxRtt": 143.86300000000003,
-                  "maxServerLatency": 65.03400000000002,
-                  "totalByteWeight": 2780838,
-                  "totalTaskTime": 1620.7699999999961,
-                  "mainDocumentTransferSize": 55197
+                  "numTasksOver500ms": 2,
+                  "rtt": 5.837000000000001,
+                  "throughput": 11448721.43769468,
+                  "maxRtt": 89.80199999999996,
+                  "maxServerLatency": 18.426,
+                  "totalByteWeight": 2603192,
+                  "totalTaskTime": 3028.843,
+                  "mainDocumentTransferSize": 55212
                 }
               ]
             }
@@ -6638,7 +6636,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr",
-        "size": 3574.749,
+        "size": 3396.903,
         "nodes": 426,
         "requests": 53,
         "grade": "C",
@@ -6646,7 +6644,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-27 18:37:01.643088",
+        "date": "2026-02-01 03:43:36.586853",
         "page_type": null
       }
     ],
@@ -6697,7 +6695,7 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 27 Jan 2026 18:47:45 GMT",
+          "date": "Sun, 01 Feb 2026 03:54:32 GMT",
           "last-modified": "Tue, 06 Jan 2026 15:49:36 GMT",
           "etag": "\"2333-647ba1f5de400\"",
           "accept-ranges": "bytes",
@@ -6712,9 +6710,9 @@
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "set-cookie": [
-            "TS01479bf2=01726d0b829dd4b45c88dc3c866b429bb5345a19f523249a3d5777760969400eed9ee5c5f7309a95fe6cf864046848f41f0f2612a9; Path=/; Domain=.www.cesu.urssaf.fr",
-            "TS3ab25f03029=08285ff142ab28006cff221c281d5967552e18d4a120d01501811915db38a4eb3ae6c400cb8a96ad3bd03f6e40c10419; Max-Age=30; Path=/",
-            "TS1c4bd837027=08285ff142ab20008019b4cdc5c0d2d818aab4a75926da90ed26eca752fc7bf64f8621bcd6a5359a08e31a2fd41130008d3520fdfd19383d83951dae2780a928242d0f75623194e0fd1564c8c6f53589a93c1ec319ed238129b27b91ea5e528e; Path=/"
+            "TS01479bf2=01726d0b829d503966950ac00fe74cb2a083da697afd93e8e0610e76154410ce41823a5f163c45394048a7e3e7ff1f3f8e596417dd; Path=/; Domain=.www.cesu.urssaf.fr",
+            "TS3ab25f03029=08285ff142ab280007be0c329864f7eb9c826c06842778d2360f61dfb0ee31a7d4a9201824af4bd3caf94a0d7a68b75b; Max-Age=30; Path=/",
+            "TS1c4bd837027=08285ff142ab20009e3d7f0d5104fd2159153a8bb1f4c90b71fa856fcc8a1c79c94ff91231127753087032ebbc113000d5eb607eb007579fe4b1085654e1e5d7a32e90ce887ee757eb61b92b61a081e6243b177dc790f45f3badfb83374f3c7b; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -7233,7 +7231,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "OK",
-        "finding": "217 >= 60 days"
+        "finding": "212 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -7905,7 +7903,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "56"
+        "finding": "55"
       }
     ],
     "thirdparties": {
@@ -7925,8 +7923,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Tue, 27 Jan 2026 18:46:50",
-      "created": "2026-01-27T18:46:50.837100816Z",
+      "@generated": "Sun, 1 Feb 2026 03:53:38",
+      "created": "2026-02-01T03:53:38.233784667Z",
       "insights": [
         {
           "level": "Info",
@@ -8127,7 +8125,7 @@
       {
         "requestedUrl": "https://www.cesu.urssaf.fr/decla/index.html",
         "finalUrl": "https://www.cesu.urssaf.fr/decla/index.html?page=page_se_connecter&LANG=FR",
-        "fetchTime": "2026-01-27T18:47:06.621Z",
+        "fetchTime": "2026-02-01T03:53:54.097Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.cesu.urssaf.fr/decla/index.html) was redirected to https://www.cesu.urssaf.fr/decla/index.html?page=page_se_connecter&LANG=FR. Try testing the second URL directly."
         ],
@@ -8192,53 +8190,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 39726,
+            "numericValue": 39190,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 21098,
-                  "firstMeaningfulPaint": 28452,
-                  "largestContentfulPaint": 35145,
-                  "interactive": 39726,
-                  "speedIndex": 25792,
-                  "totalBlockingTime": 9894,
-                  "maxPotentialFID": 2765,
+                  "firstContentfulPaint": 21175,
+                  "firstMeaningfulPaint": 28191,
+                  "largestContentfulPaint": 34798,
+                  "interactive": 39190,
+                  "speedIndex": 27529,
+                  "totalBlockingTime": 9807,
+                  "maxPotentialFID": 2366,
                   "cumulativeLayoutShift": 0.010423782348632811,
                   "cumulativeLayoutShiftMainFrame": 0.010423782348632811,
                   "totalCumulativeLayoutShift": 0.010423782348632811,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 674768139,
+                  "observedTimeOriginTs": 1797238715,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 674768139,
-                  "observedFirstPaint": 374,
-                  "observedFirstPaintTs": 675142027,
-                  "observedFirstContentfulPaint": 18,
-                  "observedFirstContentfulPaintTs": 674785792,
-                  "observedFirstContentfulPaintAllFrames": 18,
-                  "observedFirstContentfulPaintAllFramesTs": 674785792,
-                  "observedFirstMeaningfulPaint": 1977,
-                  "observedFirstMeaningfulPaintTs": 676745490,
-                  "observedLargestContentfulPaint": 1977,
-                  "observedLargestContentfulPaintTs": 676745490,
-                  "observedLargestContentfulPaintAllFrames": 1977,
-                  "observedLargestContentfulPaintAllFramesTs": 676745490,
-                  "observedTraceEnd": 4068,
-                  "observedTraceEndTs": 678835837,
+                  "observedNavigationStartTs": 1797238715,
+                  "observedFirstPaint": 526,
+                  "observedFirstPaintTs": 1797764888,
+                  "observedFirstContentfulPaint": 16,
+                  "observedFirstContentfulPaintTs": 1797254884,
+                  "observedFirstContentfulPaintAllFrames": 16,
+                  "observedFirstContentfulPaintAllFramesTs": 1797254884,
+                  "observedFirstMeaningfulPaint": 1960,
+                  "observedFirstMeaningfulPaintTs": 1799198766,
+                  "observedLargestContentfulPaint": 1960,
+                  "observedLargestContentfulPaintTs": 1799198766,
+                  "observedLargestContentfulPaintAllFrames": 1960,
+                  "observedLargestContentfulPaintAllFramesTs": 1799198766,
+                  "observedTraceEnd": 4026,
+                  "observedTraceEndTs": 1801265161,
                   "observedLoad": 2,
-                  "observedLoadTs": 674770298,
-                  "observedDomContentLoaded": 356,
-                  "observedDomContentLoadedTs": 675123854,
+                  "observedLoadTs": 1797240621,
+                  "observedDomContentLoaded": 380,
+                  "observedDomContentLoadedTs": 1797618468,
                   "observedCumulativeLayoutShift": 0.010423782348632811,
                   "observedCumulativeLayoutShiftMainFrame": 0.010423782348632811,
                   "observedTotalCumulativeLayoutShift": 0.010423782348632811,
-                  "observedFirstVisualChange": 374,
-                  "observedFirstVisualChangeTs": 675142139,
-                  "observedLastVisualChange": 2873,
-                  "observedLastVisualChangeTs": 677641139,
-                  "observedSpeedIndex": 2072,
-                  "observedSpeedIndexTs": 676839925
+                  "observedFirstVisualChange": 526,
+                  "observedFirstVisualChangeTs": 1797764715,
+                  "observedLastVisualChange": 2892,
+                  "observedLastVisualChangeTs": 1800130715,
+                  "observedSpeedIndex": 1994,
+                  "observedSpeedIndexTs": 1799232387
                 },
                 {
                   "lcpInvalidated": false
@@ -8260,18 +8258,18 @@
                   "numScripts": 55,
                   "numStylesheets": 8,
                   "numFonts": 0,
-                  "numTasks": 4055,
-                  "numTasksOver10ms": 38,
-                  "numTasksOver25ms": 21,
-                  "numTasksOver50ms": 12,
+                  "numTasks": 3528,
+                  "numTasksOver10ms": 39,
+                  "numTasksOver25ms": 26,
+                  "numTasksOver50ms": 17,
                   "numTasksOver100ms": 12,
-                  "numTasksOver500ms": 5,
-                  "rtt": 1.5440000000000005,
-                  "throughput": 8671635.168936046,
-                  "maxRtt": 89.75900000000001,
-                  "maxServerLatency": 85.152,
-                  "totalByteWeight": 4564836,
-                  "totalTaskTime": 5910.088999999983,
+                  "numTasksOver500ms": 6,
+                  "rtt": 2.1770000000000067,
+                  "throughput": 8651196.143562695,
+                  "maxRtt": 86.51100000000001,
+                  "maxServerLatency": 85.613,
+                  "totalByteWeight": 4569292,
+                  "totalTaskTime": 6540.788999999996,
                   "mainDocumentTransferSize": 10852
                 }
               ]
@@ -8294,15 +8292,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr/decla/index.html",
-        "size": 5169,
+        "size": 5163.087,
         "nodes": 605,
-        "requests": 123,
+        "requests": 128,
         "grade": "E",
-        "score": 36,
-        "ges": 2.28,
-        "water": 3.42,
+        "score": 35,
+        "ges": 2.3,
+        "water": 3.45,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-27 18:38:08.464056",
+        "date": "2026-02-01 03:44:57.302379",
         "page_type": null
       }
     ],
@@ -8352,7 +8350,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 27 Jan 2026 19:42:36 GMT",
+          "date": "Sun, 01 Feb 2026 04:47:53 GMT",
           "last-modified": "Mon, 27 Feb 2023 09:03:52 GMT",
           "etag": "\"72-c2066e00\"",
           "accept-ranges": "bytes",
@@ -8361,9 +8359,9 @@
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "set-cookie": [
-            "TS01894cc2=01726d0b82888602dc19bdc5f64185dbbf6e23739b28db433409cdc4967bdd72db9610b92516e0cf9ff6fd16493238bf3069d8d984; Path=/",
-            "TS5d88df92029=08285ff142ab2800df491fad0011a9dfbd72f0b718ddcf018ca7fd01ba0db14e76a875089a59a2a839657ed726a8018d; Max-Age=30; Path=/",
-            "TS7b7158a6027=08285ff142ab20008aa890d779340189b18c18ef36299874d0c6f95f87d1a056ac6aeb9e880208cc085654b92f1130005fa30f133ace17461009c029293c26a7cc282310864cc78ae3aafd2c0f22b638284d08ae89b2579f9d72d04da9ba6001; Path=/"
+            "TS01894cc2=01726d0b82872186974d0dd0db466641c9633bcd2af0fa62d1b2e65847661ccbd3fd5e45ad9a65c90c5fecda2866973ad1b021d820; Path=/",
+            "TS5d88df92029=08285ff142ab280098dd6b88290ec54a98e859d890b8b135fbecc43fb2622a2f293ae5c9597d366d6440cf09912bed65; Max-Age=30; Path=/",
+            "TS7b7158a6027=08285ff142ab2000f16c337daf43e0a68b781d35382ff246f572b13a3fb0cc06aa93a42c61ec78b008fa0aceb911300020a87968a815f35d6b7829ebacf507333913b085617687eae911f39c39586386d5fccc570283c8d00de37988c9323394; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -8829,7 +8827,7 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "OK",
-        "finding": "155 >= 60 days"
+        "finding": "150 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -9501,7 +9499,7 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "INFO",
-        "finding": "93"
+        "finding": "55"
       }
     ],
     "thirdparties": {
@@ -9521,8 +9519,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Tue, 27 Jan 2026 19:41:48",
-      "created": "2026-01-27T19:41:48.064615383Z",
+      "@generated": "Sun, 1 Feb 2026 04:47:08",
+      "created": "2026-02-01T04:47:08.259737427Z",
       "insights": [
         {
           "level": "Info",
@@ -9678,7 +9676,7 @@
       {
         "requestedUrl": "https://www.tpee.urssaf.fr/",
         "finalUrl": "https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html",
-        "fetchTime": "2026-01-27T19:42:03.676Z",
+        "fetchTime": "2026-02-01T04:47:23.456Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.tpee.urssaf.fr/) was redirected to https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html. Try testing the second URL directly."
         ],
@@ -9691,7 +9689,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.39
+            "score": 0.26
           },
           "accessibility": {
             "title": "Accessibility",
@@ -9743,53 +9741,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 8438,
+            "numericValue": 17078,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 3963,
-                  "firstMeaningfulPaint": 3963,
-                  "largestContentfulPaint": 4730,
-                  "interactive": 8438,
-                  "speedIndex": 4651,
-                  "totalBlockingTime": 1977,
-                  "maxPotentialFID": 2819,
+                  "firstContentfulPaint": 4160,
+                  "firstMeaningfulPaint": 4160,
+                  "largestContentfulPaint": 4843,
+                  "interactive": 17078,
+                  "speedIndex": 10718,
+                  "totalBlockingTime": 12259,
+                  "maxPotentialFID": 10000,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 676389698,
+                  "observedTimeOriginTs": 723015730,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 676389698,
-                  "observedFirstPaint": 1192,
-                  "observedFirstPaintTs": 677581620,
-                  "observedFirstContentfulPaint": 1192,
-                  "observedFirstContentfulPaintTs": 677581620,
-                  "observedFirstContentfulPaintAllFrames": 1192,
-                  "observedFirstContentfulPaintAllFramesTs": 677581620,
-                  "observedFirstMeaningfulPaint": 1192,
-                  "observedFirstMeaningfulPaintTs": 677581620,
-                  "observedLargestContentfulPaint": 1302,
-                  "observedLargestContentfulPaintTs": 677691947,
-                  "observedLargestContentfulPaintAllFrames": 1302,
-                  "observedLargestContentfulPaintAllFramesTs": 677691947,
-                  "observedTraceEnd": 4490,
-                  "observedTraceEndTs": 680879296,
-                  "observedLoad": 1421,
-                  "observedLoadTs": 677810537,
-                  "observedDomContentLoaded": 1185,
-                  "observedDomContentLoadedTs": 677575056,
+                  "observedNavigationStartTs": 723015730,
+                  "observedFirstPaint": 3370,
+                  "observedFirstPaintTs": 726385466,
+                  "observedFirstContentfulPaint": 3370,
+                  "observedFirstContentfulPaintTs": 726385466,
+                  "observedFirstContentfulPaintAllFrames": 3370,
+                  "observedFirstContentfulPaintAllFramesTs": 726385466,
+                  "observedFirstMeaningfulPaint": 3370,
+                  "observedFirstMeaningfulPaintTs": 726385466,
+                  "observedLargestContentfulPaint": 3394,
+                  "observedLargestContentfulPaintTs": 726409652,
+                  "observedLargestContentfulPaintAllFrames": 3394,
+                  "observedLargestContentfulPaintAllFramesTs": 726409652,
+                  "observedTraceEnd": 6946,
+                  "observedTraceEndTs": 729961851,
+                  "observedLoad": 3523,
+                  "observedLoadTs": 726538683,
+                  "observedDomContentLoaded": 3354,
+                  "observedDomContentLoadedTs": 726369998,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1192,
-                  "observedFirstVisualChangeTs": 677581698,
-                  "observedLastVisualChange": 1425,
-                  "observedLastVisualChangeTs": 677814698,
-                  "observedSpeedIndex": 1222,
-                  "observedSpeedIndexTs": 677611866
+                  "observedFirstVisualChange": 3389,
+                  "observedFirstVisualChangeTs": 726404730,
+                  "observedLastVisualChange": 3461,
+                  "observedLastVisualChangeTs": 726476730,
+                  "observedSpeedIndex": 3397,
+                  "observedSpeedIndexTs": 726412598
                 },
                 {
                   "lcpInvalidated": false
@@ -9811,18 +9809,18 @@
                   "numScripts": 10,
                   "numStylesheets": 16,
                   "numFonts": 0,
-                  "numTasks": 1360,
-                  "numTasksOver10ms": 8,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 2,
-                  "numTasksOver500ms": 1,
-                  "rtt": 119.692,
-                  "throughput": 4537882.070465303,
-                  "maxRtt": 119.692,
-                  "maxServerLatency": 4.328000000000046,
-                  "totalByteWeight": 286478,
-                  "totalTaskTime": 1399.1019999999996,
+                  "numTasks": 1991,
+                  "numTasksOver10ms": 23,
+                  "numTasksOver25ms": 9,
+                  "numTasksOver50ms": 6,
+                  "numTasksOver100ms": 3,
+                  "numTasksOver500ms": 2,
+                  "rtt": 89.958,
+                  "throughput": 10271459.623321269,
+                  "maxRtt": 89.958,
+                  "maxServerLatency": 2.2849999999999966,
+                  "totalByteWeight": 289939,
+                  "totalTaskTime": 4591.494000000069,
                   "mainDocumentTransferSize": 1181
                 }
               ]
@@ -9845,15 +9843,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tpee.urssaf.fr",
-        "size": 305.895,
+        "size": 309.895,
         "nodes": 124,
-        "requests": 43,
+        "requests": 44,
         "grade": "A",
-        "score": 83,
-        "ges": 1.34,
-        "water": 2.01,
+        "score": 82,
+        "ges": 1.36,
+        "water": 2.04,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-27 19:33:00.903755",
+        "date": "2026-02-01 04:38:25.330017",
         "page_type": null
       }
     ],
@@ -9871,8 +9869,8 @@
       "trackersCount": null,
       "zapCount": 8,
       "zapGrade": "D",
-      "lighthouse_performance": 0.39,
-      "lighthouse_performanceGrade": "D",
+      "lighthouse_performance": 0.26,
+      "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.84,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.67,
@@ -9904,13 +9902,13 @@
         "testsPassed": 5,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Tue, 27 Jan 2026 20:03:31 GMT",
+          "date": "Sun, 01 Feb 2026 05:07:52 GMT",
           "cache-control": "no-cache=\"Set-Cookie\"",
           "set-cookie": [
-            "JSESSIONID=vn5vp5hTVYLHH8Q5hrKJYGkjNhvm43Zl6td8kdd7Mjqvv1Ls0SWz!-411581130; expires=Tuesday, 27-Jan-2026 20:33:31 GMT; path=/; secure",
-            "TS01894cc2=01726d0b8265b4ea9a1bca2f1ddac5b024aa3d43e4243f179a64e4cd1c1d0f660ef6501e748eb41a576840e25a279347e3f1320bfbce7e5ae581f548d92c703bb624211c38; Path=/",
-            "TS5d88df92029=08285ff142ab28003c33bc46bf804616cda447093c1379312b05fca9e564c9eac66e28de02821e71162c0bcd88a6fa83; Max-Age=30; Path=/",
-            "TS7b7158a6027=08285ff142ab200077d29f4687fc3e6051304ef2657c3f7fd9d976cdbb38326960237c3c7df94fb208687c30f6113000b11d2771add83216a93347169992b7e3566ece8de0286489e27520b311c0408ef94c800ccc09aa137c0f354f288adefc; Path=/"
+            "JSESSIONID=t0GRp2fL0GhZ5BQNhhvJhdkmGM5rNv9flyC4h9YymYv1XpRsCMXd!-411581130; expires=Sunday, 01-Feb-2026 05:37:52 GMT; path=/; secure",
+            "TS01894cc2=01726d0b825e25de3fdfaf3f1dd2e4ccdea266df39f891496587588f88108c6dec84e2492d92d5eaed89f6eafac2b708056facb0cb397616c97916d1eb1a4f1ee85ad4d2cb; Path=/",
+            "TS5d88df92029=08285ff142ab2800475398d2b803cff238e2945545774ed84f0545babac68b3390556edc6e72b49a5be8874cc8caf357; Max-Age=30; Path=/",
+            "TS7b7158a6027=08285ff142ab2000c53dc0e75e045687f2b4d8c40d12d82f05a77609433c7dad43dcb464241234ee0820cb948b1130002e496623507e25298b8e231a903fe99e4c2909524ffa02dc0c06befc21ee0972dcbd50931d20329b6c3ca3e3cf5b332e; Path=/"
           ],
           "content-language": "fr-FR",
           "content-type": "text/html; charset=ISO-8859-1",
@@ -9940,7 +9938,7 @@
           "data": {
             "JSESSIONID": {
               "domain": "www.tpee.urssaf.fr",
-              "expires": "2026-01-27T20:33:31.000Z",
+              "expires": "2026-02-01T05:37:52.000Z",
               "path": "/",
               "port": null,
               "secure": true
@@ -10393,7 +10391,7 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "OK",
-        "finding": "155 >= 60 days"
+        "finding": "150 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -11065,7 +11063,7 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "INFO",
-        "finding": "98"
+        "finding": "99"
       }
     ],
     "thirdparties": {
@@ -11085,8 +11083,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Tue, 27 Jan 2026 20:02:47",
-      "created": "2026-01-27T20:02:47.536638309Z",
+      "@generated": "Sun, 1 Feb 2026 05:07:09",
+      "created": "2026-02-01T05:07:09.605483202Z",
       "insights": [
         {
           "level": "Info",
@@ -11301,7 +11299,7 @@
       {
         "requestedUrl": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
         "finalUrl": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-        "fetchTime": "2026-01-27T20:03:01.714Z",
+        "fetchTime": "2026-02-01T05:07:26.339Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -11364,53 +11362,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15450,
+            "numericValue": 16163,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7730,
-                  "firstMeaningfulPaint": 7730,
-                  "largestContentfulPaint": 9053,
-                  "interactive": 15450,
-                  "speedIndex": 9658,
-                  "totalBlockingTime": 3741,
-                  "maxPotentialFID": 2932,
+                  "firstContentfulPaint": 7623,
+                  "firstMeaningfulPaint": 7623,
+                  "largestContentfulPaint": 8744,
+                  "interactive": 16163,
+                  "speedIndex": 9729,
+                  "totalBlockingTime": 4759,
+                  "maxPotentialFID": 3269,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 869902419,
+                  "observedTimeOriginTs": 747221538,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 869902419,
-                  "observedFirstPaint": 2039,
-                  "observedFirstPaintTs": 871941403,
-                  "observedFirstContentfulPaint": 2039,
-                  "observedFirstContentfulPaintTs": 871941403,
-                  "observedFirstContentfulPaintAllFrames": 2039,
-                  "observedFirstContentfulPaintAllFramesTs": 871941403,
-                  "observedFirstMeaningfulPaint": 2039,
-                  "observedFirstMeaningfulPaintTs": 871941403,
-                  "observedLargestContentfulPaint": 2174,
-                  "observedLargestContentfulPaintTs": 872075981,
-                  "observedLargestContentfulPaintAllFrames": 2174,
-                  "observedLargestContentfulPaintAllFramesTs": 872075981,
-                  "observedTraceEnd": 5364,
-                  "observedTraceEndTs": 875266828,
-                  "observedLoad": 2683,
-                  "observedLoadTs": 872585409,
-                  "observedDomContentLoaded": 2031,
-                  "observedDomContentLoadedTs": 871933371,
+                  "observedNavigationStartTs": 747221538,
+                  "observedFirstPaint": 2148,
+                  "observedFirstPaintTs": 749369886,
+                  "observedFirstContentfulPaint": 2148,
+                  "observedFirstContentfulPaintTs": 749369886,
+                  "observedFirstContentfulPaintAllFrames": 2148,
+                  "observedFirstContentfulPaintAllFramesTs": 749369886,
+                  "observedFirstMeaningfulPaint": 2148,
+                  "observedFirstMeaningfulPaintTs": 749369886,
+                  "observedLargestContentfulPaint": 2301,
+                  "observedLargestContentfulPaintTs": 749522832,
+                  "observedLargestContentfulPaintAllFrames": 2301,
+                  "observedLargestContentfulPaintAllFramesTs": 749522832,
+                  "observedTraceEnd": 5646,
+                  "observedTraceEndTs": 752867524,
+                  "observedLoad": 2777,
+                  "observedLoadTs": 749998092,
+                  "observedDomContentLoaded": 2143,
+                  "observedDomContentLoadedTs": 749364762,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 2054,
-                  "observedFirstVisualChangeTs": 871956419,
-                  "observedLastVisualChange": 2173,
-                  "observedLastVisualChangeTs": 872075419,
-                  "observedSpeedIndex": 2074,
-                  "observedSpeedIndexTs": 871976769
+                  "observedFirstVisualChange": 2168,
+                  "observedFirstVisualChangeTs": 749389538,
+                  "observedLastVisualChange": 2301,
+                  "observedLastVisualChangeTs": 749522538,
+                  "observedSpeedIndex": 2189,
+                  "observedSpeedIndexTs": 749410328
                 },
                 {
                   "lcpInvalidated": false
@@ -11432,19 +11430,19 @@
                   "numScripts": 18,
                   "numStylesheets": 9,
                   "numFonts": 0,
-                  "numTasks": 1423,
-                  "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 8,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 1243,
+                  "numTasksOver10ms": 15,
+                  "numTasksOver25ms": 7,
+                  "numTasksOver50ms": 4,
                   "numTasksOver100ms": 2,
                   "numTasksOver500ms": 2,
-                  "rtt": 1.5960000000000036,
-                  "throughput": 8427697.283684738,
-                  "maxRtt": 154.761,
-                  "maxServerLatency": 178.39000000000001,
-                  "totalByteWeight": 1024567,
-                  "totalTaskTime": 1825.348999999991,
-                  "mainDocumentTransferSize": 10950
+                  "rtt": 1.259999999999998,
+                  "throughput": 7246718.274282773,
+                  "maxRtt": 147.393,
+                  "maxServerLatency": 204.23899999999998,
+                  "totalByteWeight": 1020461,
+                  "totalTaskTime": 2120.714000000001,
+                  "mainDocumentTransferSize": 10949
                 }
               ]
             }
@@ -11466,7 +11464,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-        "size": 1266.14,
+        "size": 1267.85,
         "nodes": 93,
         "requests": 41,
         "grade": "B",
@@ -11474,7 +11472,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2026-01-27 19:53:50.685269",
+        "date": "2026-02-01 04:58:10.292044",
         "page_type": null
       }
     ],
