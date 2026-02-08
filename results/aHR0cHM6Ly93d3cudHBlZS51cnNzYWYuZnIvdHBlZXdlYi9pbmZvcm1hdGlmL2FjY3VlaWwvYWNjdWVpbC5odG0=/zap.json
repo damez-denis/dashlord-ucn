@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 1 Feb 2026 05:07:09",
-	"created": "2026-02-01T05:07:09.605483202Z",
+	"@generated": "Sun, 8 Feb 2026 03:01:01",
+	"created": "2026-02-08T03:01:01.197045758Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -141,9 +141,9 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "1",
-							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
+							"id": "0",
+							"uri": "https://www.tpee.urssaf.fr/",
+							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -158,7 +158,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90003",
@@ -211,7 +211,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -441,7 +441,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "45",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -481,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "47",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -551,7 +551,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "35",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -561,7 +561,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "46",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -637,14 +637,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "pN9Tp2fZMrY4n0v3kzHyfcPCLV7C0ZppmptDpWgzGz3glzCRXdrJ",
-							"otherinfo": "\uFFFD\uFFFDS\uFFFDg\uFFFD2\uFFFD8\uFFFDK\uFFFD\uFFFD1\uFFFD}\uFFFD\uFFFD-^\uFFFD\u045Ai\uFFFD\uFFFDC\uFFFDh3\\x001b=\uFFFD\uFFFD0\uFFFD]\uFFFD\uFFFD"
+							"evidence": "dkQPpH8Lpvx4sXh0hQ2GtNzVwZ3Sndp3syG1y1G84NdJnm2l19vf",
+							"otherinfo": "vD\\x000f\uFFFD\\x000b\uFFFD\uFFFDx\uFFFDxt\uFFFD\r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u049D\uFFFDw\uFFFD!\uFFFD\uFFFDQ\uFFFD\uFFFD\uFFFDI\uFFFDm\uFFFD\uFFFD\uFFFD\uFFFD"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFDS\uFFFDg\uFFFD2\uFFFD8\uFFFDK\uFFFD\uFFFD1\uFFFD}\uFFFD\uFFFD-^\uFFFD\u045Ai\uFFFD\uFFFDC\uFFFDh3\\x001b=\uFFFD\uFFFD0\uFFFD]\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>vD\\x000f\uFFFD\\x000b\uFFFD\uFFFDx\uFFFDxt\uFFFD\r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u049D\uFFFDw\uFFFD!\uFFFD\uFFFDQ\uFFFD\uFFFD\uFFFDI\uFFFDm\uFFFD\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -677,7 +677,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a href=\"/tpeeweb/adhesion/create/createAdhesion.htm;jsessionid=lwHvp2ZPTJQn1bMHWlvLykdvHvT2GC8qggLhQdTGK8v3kFv7g2Cm!-411581130\" title=\"Adh\u00E9sion\" alt=\"Adh\u00E9sion\" target=\"_self\">Adh\u00E9sion</a>",
+							"evidence": "<a href=\"/tpeeweb/adhesion/create/createAdhesion.htm;jsessionid=15dCpQJCLG6hkcxZBTkgfx7vDsXCNW9Jw8BhD12TQ0JT1Gp8wTJv!-407437375\" title=\"Adh\u00E9sion\" alt=\"Adh\u00E9sion\" target=\"_self\">Adh\u00E9sion</a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						}
 					],
@@ -711,7 +711,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "5",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -741,7 +741,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "45",
+							"id": "42",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -781,7 +781,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "41",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -821,7 +821,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "41",
+							"id": "40",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -861,7 +861,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "43",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -911,7 +911,7 @@
 							"otherinfo": "cookie:TS5d88df92029\ncookie:TS7b7158a6027\ncookie:TS01894cc2"
 						},
 						{
-							"id": "34",
+							"id": "36",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -941,7 +941,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "34",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -951,7 +951,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "40",
+							"id": "44",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
