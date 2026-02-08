@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 1 Feb 2026 03:53:38",
-	"created": "2026-02-01T03:53:38.233784667Z",
+	"@generated": "Sun, 8 Feb 2026 01:50:45",
+	"created": "2026-02-08T01:50:45.634126697Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -239,9 +239,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "0",
+							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
+							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": true,
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
@@ -671,7 +681,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "23",
+							"id": "22",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
