@@ -18,15 +18,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://tm.urssaf.fr/event?s=606899&idclient=mld22j1nbyqrl4wr"
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/905cdd9f-efc3-4fd4-86b9-8990e0fe2242/0af4023f-9441-17a7-8194-6f72e4046fa7//1769494826108/bundle.min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tm.urssaf.fr/event?s=606899&idclient=mln1vutnrzglj439"
     },
     {
       "type": "unknown",
       "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/905cdd9f-efc3-4fd4-86b9-8990e0fe2242/0af4023f-9441-17a7-8194-6f72e4046fa7//1769494826108/bundle.min.js"
     },
     {
       "type": "unknown",
@@ -91,38 +91,22 @@
   ],
   "cookies": [
     {
-      "name": "TCPID",
-      "value": "12620119365351242929",
-      "domain": ".urssaf.fr",
+      "name": "TS01e420e8",
+      "value": "01726d0b8295fa4324a61bc54445198d592423195ac217755fc209252aa3dc4e0f9692783568fab499709295ac0512a18bda36bc75",
+      "domain": ".www.autoentrepreneur.urssaf.fr",
       "path": "/",
-      "expires": 1804468776,
-      "size": 25,
+      "expires": -1,
+      "size": 116,
       "httpOnly": false,
       "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
-    },
-    {
-      "name": "_pcid",
-      "value": "%7B%22browserId%22%3A%22mld22j1nbyqrl4wr%22%2C%22_t%22%3A%22n11h00dt%7Cmld22j1t%22%7D",
-      "domain": ".urssaf.fr",
-      "path": "/",
-      "expires": 1804641576,
-      "size": 90,
-      "httpOnly": false,
-      "secure": true,
-      "session": false,
-      "sameSite": "Lax",
+      "session": true,
       "priority": "Medium",
       "sameParty": false,
       "sourceScheme": "Secure"
     },
     {
       "name": "TS011bc192",
-      "value": "01726d0b82c5177a4ae89dc2983a1cb06dcda92aefd2b7af871c3a439a291aea8102d1c1362ee5ca1c982da509113c3b40ca8dc221",
+      "value": "01726d0b82e80ac386ac066a7aa4fddb8d6ef6a0ed75f93a4b732cf5d65937eb86e3229ccbe7a6dab90fd53f769cf0241777590923",
       "domain": ".autoentrepreneur.urssaf.fr",
       "path": "/",
       "expires": -1,
@@ -136,7 +120,7 @@
     },
     {
       "name": "JSESSIONID",
-      "value": "5ECEC99BD61359CF0C1609586CB2D7E3.hwi69paefoappli1",
+      "value": "2BE5F081B58C70CFBAEAB65BCC7B6D5D.hwi69paefoappli1",
       "domain": "www.autoentrepreneur.urssaf.fr",
       "path": "/portail",
       "expires": -1,
@@ -150,7 +134,7 @@
     },
     {
       "name": "TS013afc68",
-      "value": "01726d0b82fc798d59980c219abb3b564f373a966f0fd02876974b937f1e4d64ee064877234b463875324c8d16e76af153c159b296fb4e903af60dde5d89e307cf1fc8c9ed",
+      "value": "01726d0b82c0c3f51616aa35596f9951cabd013cd0c217755fc209252aa3dc4e0f969278359cab3b6f25f92b56f1b3ae4833704d1ec4b65898a931ccf067cfc4fd9d7f788c",
       "domain": "www.autoentrepreneur.urssaf.fr",
       "path": "/portail",
       "expires": -1,
@@ -164,10 +148,10 @@
     },
     {
       "name": "_pprv",
-      "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im4xMWgwMGRyfG1sZDIyajFyIn0%3D",
+      "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im4xYmd0YzVzfG1sbjF2dXRzIn0%3D",
       "domain": ".urssaf.fr",
       "path": "/",
-      "expires": 1804641576,
+      "expires": 1805245927,
       "size": 163,
       "httpOnly": false,
       "secure": true,
@@ -178,12 +162,12 @@
       "sourceScheme": "Secure"
     },
     {
-      "name": "_pctx",
-      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykAjAIAWABlGt8AHwC2qVgCYFAKwF8AvkA",
+      "name": "_pcid",
+      "value": "%7B%22browserId%22%3A%22mln1vutnrzglj439%22%2C%22_t%22%3A%22n1bgtc5u%7Cmln1vutu%22%7D",
       "domain": ".urssaf.fr",
       "path": "/",
-      "expires": 1804641576,
-      "size": 107,
+      "expires": 1805245927,
+      "size": 90,
       "httpOnly": false,
       "secure": true,
       "session": false,
@@ -193,15 +177,31 @@
       "sourceScheme": "Secure"
     },
     {
-      "name": "TS01e420e8",
-      "value": "01726d0b8202de23cbad4bf0056ed9146065fd3f6e0fd02876974b937f1e4d64ee06487723cf2794ca1c644cb489adb7d225b6d243",
-      "domain": ".www.autoentrepreneur.urssaf.fr",
+      "name": "_pctx",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykAjACMA5vgDGAVgBuAHwC2qQdLD5pIAL5A",
+      "domain": ".urssaf.fr",
       "path": "/",
-      "expires": -1,
-      "size": 116,
+      "expires": 1805245927,
+      "size": 108,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "TCPID",
+      "value": "1262011277645776711",
+      "domain": ".urssaf.fr",
+      "path": "/",
+      "expires": 1805073127,
+      "size": 24,
       "httpOnly": false,
       "secure": false,
-      "session": true,
+      "session": false,
+      "sameSite": "Lax",
       "priority": "Medium",
       "sameParty": false,
       "sourceScheme": "Secure"
@@ -213,7 +213,7 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'self' blob: *.urssaf.fr voxusagers.numerique.gouv.fr *.dailymotion.com *.google-analytics.com *.hcaptcha.com *.net-entreprises.fr *.youtube.com *.google.com *.gstatic.com *.facebook.net 'unsafe-inline' data: *.tagcommander.com *.commander1.com *.trustcommander.net *.googleapis.com *.staging.k8s.recouv cdn-virtual-agent-enriched.smartly.ai apis-virtual-agent-enriched.smartly.ai webchat-virtual-agent-enriched.smartly.ai smartly-image-stage.s3.us-west-2.amazonaws.com media-virtual-agent-enriched.smartly.ai cdnjs.cloudflare.com production-rogeraccess-webapp.rogervoice.com *.amazonaws.com *.abtasty.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io wss:; script-src 'self' blob: *.youtube.com tag.aticdn.net *.urssaf.fr *.google-analytics.com *.google.com *.gstatic.com *.net-entreprises.fr 'unsafe-eval' 'unsafe-inline' *.tagcommander.com *.trustcommander.net *.commander1.com cdn-virtual-agent-enriched.smartly.ai cdnjs.cloudflare.com cdn.polyfill.io webrtc.github.io widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.staging.k8s.recouv *.googleapis.com *.abtasty.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 08 Feb 2026 01:19:35 GMT",
+    "date": "Sun, 15 Feb 2026 01:12:06 GMT",
     "expires": "Wed, 09 May 1979 05:30:00 GMT\nFri, 01 Jan 1990 00:00:00 GMT",
     "keep-alive": "timeout=60",
     "pragma": "no-cache\nno-cache",
@@ -282,19 +282,18 @@
     },
     {
       "hostname": "cdn.tagcommander.com",
-      "ip": "146.75.30.132",
+      "ip": "151.101.46.132",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5128581,
           "names": {
-            "de": "Ashburn",
-            "en": "Ashburn",
-            "es": "Ashburn",
-            "fr": "Ashburn",
-            "ja": "アッシュバーン",
-            "pt-BR": "Ashburn",
-            "ru": "Ашберн",
-            "zh-CN": "阿什本"
+            "de": "New York City",
+            "en": "New York",
+            "es": "Nueva York",
+            "fr": "New York",
+            "ja": "ニューヨーク",
+            "pt-BR": "Nova Iorque",
+            "ru": "Нью-Йорк"
           }
         },
         "continent": {
@@ -318,7 +317,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -327,13 +326,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
+          "latitude": 40.7126,
+          "longitude": -74.0066,
+          "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "20149"
+          "code": "10004"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -342,7 +341,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -351,17 +350,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5128638,
+            "iso_code": "NY",
             "names": {
-              "de": "Virginia",
-              "en": "Virginia",
-              "es": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
             }
           }
         ]
@@ -392,7 +391,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -412,7 +411,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -521,7 +520,7 @@
     },
     {
       "hostname": "tm.urssaf.fr",
-      "ip": "3.170.3.87",
+      "ip": "3.170.3.113",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -544,7 +543,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -564,7 +563,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -575,7 +574,7 @@
     },
     {
       "hostname": "privacy.trustcommander.net",
-      "ip": "13.39.134.128",
+      "ip": "15.236.7.128",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -635,7 +634,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
