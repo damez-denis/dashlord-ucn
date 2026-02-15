@@ -9,18 +9,12 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 08 Feb 2026 01:03:37 GMT",
+      "date": "Sun, 15 Feb 2026 00:55:54 GMT",
       "content-type": "text/html;charset=UTF-8",
       "connection": "close",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
       "pragma": "no-cache",
-      "set-cookie": [
-        "JSESSIONID=88B958DC0A52CA75F3AF562939493047; Path=/; Secure; HttpOnly",
-        "TS01c7b25a=01726d0b82c930c9f4dde036c87720532f4539f4703f2e61bc182c4c3519ad95df780caf6085684c193e63a6d6a42c997a80d17e1b63b9220dabd9b66a629713a0878f4e4c; Path=/; Domain=.www.urssaf.fr",
-        "TSb749e220029=08285ff142ab2800da99f923eff04acdc9900014315a8cd53efcf35a3c534f1c688c4cb0de09b5dd74d5842aa2297aa6; Max-Age=30; Path=/",
-        "TS91b06514027=08285ff142ab2000d7870952a1eaa4b1adece625ab081178015eb757c042ac4ca6f89c0596ee74bc08f1342bc911300026c02b53ce6ab653a6ac1147cbbe56a8053c68d9f9379e1e98689a1683d783a24d3b0015f5e13a541ae802f6e6d7b70b; Path=/"
-      ],
       "vary": "accept-encoding",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "x-content-type-options": "nosniff",
@@ -30,6 +24,10 @@
       "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
       "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
       "access-control-max-age": "1728000",
+      "set-cookie": [
+        "TSb749e220029=08285ff142ab2800ad22cdb2adffc4e39a5258a5f90f9cc8e8f393307dbfe5018702b7417e7fbb2f6077569115a6d388; Max-Age=30; Path=/",
+        "TS91b06514027=08285ff142ab200070169d355e9f20400b099cf4295890daf3107a3f5ad3b0c7146c6e72471199ee08cac8e8331130003e9ca898e2f5399c6f0f0c5e724e0f9b8bad827cbfb685d83ddb375a6e09708ae50c1df1b50d5749007b230010efcb1c; Path=/"
+      ],
       "transfer-encoding": "chunked"
     }
   },
@@ -124,7 +122,7 @@
       "result": "sri-not-implemented-but-external-scripts-loaded-securely",
       "scoreModifier": -5,
       "data": {
-        "https://cdn.tagcommander.com/4736/tc_Acoss_48.js": {
+        "https://res.tmg.urssaf.org/tc_Acoss_48.js": {
           "crossorigin": null,
           "integrity": null
         }
