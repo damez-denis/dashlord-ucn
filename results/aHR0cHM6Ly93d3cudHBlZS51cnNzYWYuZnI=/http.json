@@ -9,7 +9,7 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 08 Feb 2026 02:45:32 GMT",
+      "date": "Sun, 15 Feb 2026 02:37:11 GMT",
       "last-modified": "Mon, 27 Feb 2023 09:03:52 GMT",
       "etag": "\"72-c2066e00\"",
       "accept-ranges": "bytes",
@@ -18,9 +18,9 @@
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "vary": "Accept-Encoding",
       "set-cookie": [
-        "TS01894cc2=01726d0b82308edd4233ee9ec9201df16648d127fdbcf132b408162520b7350b5e42274aba98210cae98ada70f94f463734df6d7d1; Path=/",
-        "TS5d88df92029=08285ff142ab280086b76cb828270a4a3637af49243181f30d97240d1b2d3825c9239fa94e6ecac227e19f589e2df317; Max-Age=30; Path=/",
-        "TS7b7158a6027=08285ff142ab200045d87dbf3277df0db213b6ac975f818089852565622f8b2f3008abfdff79a57708c4109e831130003a4e43deb16810016da75db7eeee69b3ba04debb42667935d1b5186a6473b536ff95fc93bd4a393acc99257b3b83ccb5; Path=/"
+        "TS01894cc2=01726d0b8204f8ca04c609059e84ddedfdf5de2c7cd1a16e84fe730ad660dceb2016b21e36f48a672f7bf95badb127fcd0d74490d3; Path=/",
+        "TS5d88df92029=08285ff142ab2800cbd75fa7aada2d641b11b02652fba3dd7e91da0b0d78d42e7298b572ac9fb85fb20a94c43670c617; Max-Age=30; Path=/",
+        "TS7b7158a6027=08285ff142ab2000221579c033f77de8dbcd7f309f94d81b07ad377b5d10d98265d4efa7fd01aa8c081b2ca229113000c52dd312bc3dc92e06e6b49d8a6d93733efbe0193960900232d5bbbd2dfdf344a461e288c7e357d92c393c532e77cff7; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
