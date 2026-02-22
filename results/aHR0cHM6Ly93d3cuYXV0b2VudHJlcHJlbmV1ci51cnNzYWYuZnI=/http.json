@@ -9,7 +9,7 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 15 Feb 2026 01:19:03 GMT",
+      "date": "Sun, 22 Feb 2026 01:20:11 GMT",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache,no-store,must-revalidate",
       "pragma": "no-cache, no-cache",
@@ -21,7 +21,8 @@
       "connection": "close",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "set-cookie": [
-        "TS047062ef027=08285ff142ab2000acc1456b1150829bbcf7d3f5759a6208c4e33b4dd643f462dd363cf7a5643d5c083f1838541130004fd2263e82500bb7b836245db32d64b70b7af1559a9b8c9383b9f38c4f96de6764adc9708f47f55b81566da5993e7642; Path=/"
+        "TS6bd60791029=08285ff142ab280014c743e50f4f290697bd8295ebe4db3b9126a770c4284a55945fd05121cb5c5a836a385acfef668f; Max-Age=30; Path=/",
+        "TS047062ef027=08285ff142ab2000c404358e8781ff69ce350eb8a02e3d8ec25c77aa202604a1b9a72aaef4971f0f083ed5c9b4113000c8127bfc922ff55fb013052922e0211d690f3c25a5dfed7de3ab80375c4d4dbef9d441ed442fde37bd4591c41bc423b3; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
@@ -123,6 +124,12 @@
       "data": {
         "TS01e420e8": {
           "domain": "www.autoentrepreneur.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "TS6bd60791029": {
+          "domain": "www.autoentrepreneur.urssaf.fr",
+          "max-age": 30,
           "path": "/",
           "port": null
         },
