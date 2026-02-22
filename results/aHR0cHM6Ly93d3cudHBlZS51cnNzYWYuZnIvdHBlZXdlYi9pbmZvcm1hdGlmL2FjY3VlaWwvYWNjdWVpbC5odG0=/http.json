@@ -9,13 +9,13 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 15 Feb 2026 02:53:36 GMT",
+      "date": "Sun, 22 Feb 2026 02:58:51 GMT",
       "cache-control": "no-cache=\"Set-Cookie\"",
       "set-cookie": [
-        "JSESSIONID=CmLVpR1QfrGW7m4HK6QVTnhCYJMqhJ2y3QyDnmjYpdJfKDv1q31p!923509662; expires=Sunday, 15-Feb-2026 03:23:36 GMT; path=/; secure",
-        "TS01894cc2=01726d0b824426ebabaab5cebb6b0837d7a6df7da2f0a416a9818b78dbd2986e4d8dc309952ab946e85c0fbb2751a0978e491b5ceccdcf533b44f4207a8b7e7a48a0d194ba; Path=/",
-        "TS5d88df92029=08285ff142ab2800945a239468eafc8472a26a312f5817305c744555b9a3700d90b28de774890ffe0edddba2f584dcfa; Max-Age=30; Path=/",
-        "TS7b7158a6027=08285ff142ab20003a7ecbf5f40b08541f8034bee322a197c3085d9446af4b0f44c64ee53ca67fc1084b0204541130004bac4acb57ddade0eb70833dd5e44ca9913fcc93250aeeef28d989160f70bb13abac15e7943dbb3d13937f529eac4a32; Path=/"
+        "JSESSIONID=N222phwLS7LJHhLhGb5xl7KzhS3Z5VS61hkLXLKksnrJL6My1SGs!-24481935; expires=Sunday, 22-Feb-2026 03:28:51 GMT; path=/; secure",
+        "TS01894cc2=01726d0b8228cbd2a387bd1824fe522fd53f70f8bea0e2dc547efc806bcb672f67aac039653ea04633790d6e737e0d7f844c53ab4a665f5dc22b518515b40dbe2f664fa70f; Path=/",
+        "TS5d88df92029=08285ff142ab2800939317cecb88c9dba6b320bc61fdcffca95f51d57f4ff2cca16b0e17b304f81eb919844046742ca6; Max-Age=30; Path=/",
+        "TS7b7158a6027=08285ff142ab2000e271c5407e9cd79bf1300313645a6035bfae5c72872f5cc5ca0ef71d3a0c422808e458884c113000ed4c09ba16414d63605d07eaa03a4b234bbaf9ceae14012e8a98be6e825ac0c1f2327d51e1723ea26d46352ac12bcacf; Path=/"
       ],
       "content-language": "fr-FR",
       "content-type": "text/html; charset=ISO-8859-1",
@@ -45,7 +45,7 @@
       "data": {
         "JSESSIONID": {
           "domain": "www.tpee.urssaf.fr",
-          "expires": "2026-02-15T03:23:36.000Z",
+          "expires": "2026-02-22T03:28:51.000Z",
           "path": "/",
           "port": null,
           "secure": true
