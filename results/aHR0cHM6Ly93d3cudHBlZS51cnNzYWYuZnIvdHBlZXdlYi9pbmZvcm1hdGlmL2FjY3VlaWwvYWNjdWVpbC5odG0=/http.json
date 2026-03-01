@@ -9,13 +9,13 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 22 Feb 2026 02:58:51 GMT",
+      "date": "Sun, 01 Mar 2026 02:52:18 GMT",
       "cache-control": "no-cache=\"Set-Cookie\"",
       "set-cookie": [
-        "JSESSIONID=N222phwLS7LJHhLhGb5xl7KzhS3Z5VS61hkLXLKksnrJL6My1SGs!-24481935; expires=Sunday, 22-Feb-2026 03:28:51 GMT; path=/; secure",
-        "TS01894cc2=01726d0b8228cbd2a387bd1824fe522fd53f70f8bea0e2dc547efc806bcb672f67aac039653ea04633790d6e737e0d7f844c53ab4a665f5dc22b518515b40dbe2f664fa70f; Path=/",
-        "TS5d88df92029=08285ff142ab2800939317cecb88c9dba6b320bc61fdcffca95f51d57f4ff2cca16b0e17b304f81eb919844046742ca6; Max-Age=30; Path=/",
-        "TS7b7158a6027=08285ff142ab2000e271c5407e9cd79bf1300313645a6035bfae5c72872f5cc5ca0ef71d3a0c422808e458884c113000ed4c09ba16414d63605d07eaa03a4b234bbaf9ceae14012e8a98be6e825ac0c1f2327d51e1723ea26d46352ac12bcacf; Path=/"
+        "JSESSIONID=SvKvpjpCCvbw1rKZPpWF94jLLqhCZZpBhRn0yBQBh15NFz2L0hxm!923121640; expires=Sunday, 01-Mar-2026 03:22:18 GMT; path=/; secure",
+        "TS01af3c49=01726d0b822b866b6e8613b832cda8ec6368f49192dfe5b6e5d96beeea726998bf9d32629e1576065654e7db16a487a7bcebf00f57edcf4b2687752e3b03bc6362928a9a4d; Path=/; Domain=.www.tpee.urssaf.fr",
+        "TS5d88df92029=08285ff142ab28000dc979aef43c550fdab1eaeb09d31799dd85f6d9968e4ee31d3bdc98c5e8f3bcc61b6e23596681fb; Max-Age=30; Path=/",
+        "TS7b7158a6027=08285ff142ab2000a138fc86d3181e8db1d81ec9267da05ab618e0ea48c17c59ab98f0633ef8965d08977de9e9113000f8d3247c71e532149c53960c4054f41eac815a14b579149e112e04c669a6e8bb9f1ae3cbff6f8c2cd0d99c4ff15e23de; Path=/"
       ],
       "content-language": "fr-FR",
       "content-type": "text/html; charset=ISO-8859-1",
@@ -45,12 +45,12 @@
       "data": {
         "JSESSIONID": {
           "domain": "www.tpee.urssaf.fr",
-          "expires": "2026-02-22T03:28:51.000Z",
+          "expires": "2026-03-01T03:22:18.000Z",
           "path": "/",
           "port": null,
           "secure": true
         },
-        "TS01894cc2": {
+        "TS01af3c49": {
           "domain": "www.tpee.urssaf.fr",
           "path": "/",
           "port": null
