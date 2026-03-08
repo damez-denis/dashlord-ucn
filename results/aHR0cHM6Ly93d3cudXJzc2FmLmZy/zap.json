@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 1 Mar 2026 00:57:16",
-	"created": "2026-03-01T00:57:16.601783570Z",
+	"@generated": "Sun, 8 Mar 2026 00:53:07",
+	"created": "2026-03-08T00:53:07.266482335Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -483,14 +483,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/files/live/sites/urssaffr/files/illustrations/actualites/TI/662493013",
-							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
+							"evidence": "/files/live/sites/urssaffr/files/illustrations/evenements/OETH-Urssaf-Universite-Handicap-1280x720-2026",
+							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\u07BD\uFFFD\u0799\uFFFD\uFFFD\uFFFDL\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFDv\uFFFDv'\\x001a\uFFFD\uFFFDv\uFFFDL{\uFFFDO\uFFFD\uFFFDn"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\u07BD\uFFFD\u0799\uFFFD\uFFFD\uFFFDL\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFDv\uFFFDv'\\x001a\uFFFD\uFFFDv\uFFFDL{\uFFFDO\uFFFD\uFFFDn</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
