@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 8 Mar 2026 01:20:00",
-	"created": "2026-03-08T01:20:00.461418605Z",
+	"@generated": "Sun, 15 Mar 2026 01:25:01",
+	"created": "2026-03-15T01:25:01.657457982Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://autoentrepreneur.urssaf.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "50"
 		}
 	],
 	"site":[ 
@@ -311,7 +311,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "25",
 							"uri": "https://autoentrepreneur.urssaf.fr/",
 							"nodeName": "https:\/\/autoentrepreneur.urssaf.fr\/",
 							"method": "GET",
@@ -651,7 +651,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "29",
 							"uri": "https://autoentrepreneur.urssaf.fr/services",
 							"nodeName": "https:\/\/autoentrepreneur.urssaf.fr\/services",
 							"method": "GET",
@@ -691,7 +691,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "30",
 							"uri": "https://autoentrepreneur.urssaf.fr/services",
 							"nodeName": "https:\/\/autoentrepreneur.urssaf.fr\/services",
 							"method": "GET",
@@ -731,7 +731,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "28",
 							"uri": "https://autoentrepreneur.urssaf.fr/services",
 							"nodeName": "https:\/\/autoentrepreneur.urssaf.fr\/services",
 							"method": "GET",
@@ -771,7 +771,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "27",
 							"uri": "https://autoentrepreneur.urssaf.fr/services",
 							"nodeName": "https:\/\/autoentrepreneur.urssaf.fr\/services",
 							"method": "GET",
@@ -1041,7 +1041,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "24",
 							"uri": "https://autoentrepreneur.urssaf.fr/",
 							"nodeName": "https:\/\/autoentrepreneur.urssaf.fr\/",
 							"method": "GET",
@@ -1091,7 +1091,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "24",
+							"id": "26",
 							"uri": "https://autoentrepreneur.urssaf.fr/services",
 							"nodeName": "https:\/\/autoentrepreneur.urssaf.fr\/services",
 							"method": "GET",
