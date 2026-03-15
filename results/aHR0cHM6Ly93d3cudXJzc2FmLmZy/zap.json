@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 8 Mar 2026 00:53:07",
-	"created": "2026-03-08T00:53:07.266482335Z",
+	"@generated": "Sun, 15 Mar 2026 00:58:31",
+	"created": "2026-03-15T00:58:31.819441057Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -483,14 +483,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/files/live/sites/urssaffr/files/illustrations/evenements/OETH-Urssaf-Universite-Handicap-1280x720-2026",
-							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\u07BD\uFFFD\u0799\uFFFD\uFFFD\uFFFDL\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFDv\uFFFDv'\\x001a\uFFFD\uFFFDv\uFFFDL{\uFFFDO\uFFFD\uFFFDn"
+							"evidence": "/files/live/sites/urssaffr/files/illustrations/actualites/marin/6898-Visuel-Actu-Web-Marins",
+							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD|\uFFFDX\uFFFD\uFFFD\uFFFD~\\x0001\uFFFDn\uFFFDg\uFFFD\uFFFD\u01AB\uFFFD{"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\u07BD\uFFFD\u0799\uFFFD\uFFFD\uFFFDL\uFFFD\uFFFD\uFFFD\\x001a\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFDv\uFFFDv'\\x001a\uFFFD\uFFFDv\uFFFDL{\uFFFDO\uFFFD\uFFFDn</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD|\uFFFDX\uFFFD\uFFFD\uFFFD~\\x0001\uFFFDn\uFFFDg\uFFFD\uFFFD\u01AB\uFFFD{</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
